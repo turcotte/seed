@@ -1,0 +1,37 @@
+Seed 1.0 [Aug  9 2005] - RNA secondary structure motif inference
+
+Copyright (C) 2003-05 University of Ottawa
+All Rights Reserved
+
+This program is distributed under the terms of the
+GNU General Public License. See the source code
+for details.
+
+[ find_all_stems ]
+[ size of the motif list is 529 ]
+[ filter_by_support ]
+[ size of the motif list is 501 ]
+[ fix_all ]
+[ size of the motif list is 1925 ]
+[ combine_all ]
+[ generating all 2 stems motifs ]
+[ size of the motif list is 1925 ]
+[ generating all 3 stems motifs ]
+[ size of the motif list is 50484 ]
+[ generating all 4 stems motifs ]
+[ size of the motif list is 188341 ]
+[ generating all 5 stems motifs ]
+[ size of the motif list is 370817 ]
+[ generating all 6 stems motifs ]
+[ size of the motif list is 491904 ]
+[ generating all 7 stems motifs ]
+[ size of the motif list is 523801 ]
+[ generating all 8 stems motifs ]
+[ size of the motif list is 526507 ]
+[ done ]
+[ size of the motif list is 526507 ]
+[ elapsed time 14 hours, 42 minutes, 39 seconds ]
+[ total number of match operations is 272320496 ]
+[ memory usage is 549.739 Mbytes ]
+[ postprocess ]
+[ size of the motif list is 451953 ]

@@ -1,0 +1,151 @@
+#! /usr/bin/perl -w
+#                              -*- Mode: Cperl -*-
+# ct_compare.pl --- compares nucleic acids secondary structure files (.ct)
+# Author          : Marcel Turcotte
+# Created On      : Sun Dec 28 15:36:02 2003
+# Last Modified By: Marcel Turcotte
+# Last Modified On: Fri Jul 29 15:52:41 2005
+#
+# This copyrighted source code is freely distributed under the terms
+# of the GNU General Public License.
+# See the files COPYRIGHT and LICENSE for details.
+
+# Sensitivity and PPV are according to
+#
+# RD Dowell and SR Eddy (2004) BMC Bioinformatics 5:71.
+
+# Matthews Correlation Coefficient (MCC) is calculated according to
+#
+# Jan Gorodkin, Shawn L. Stricklin and Gary D. Stormo,
+# Discovering common stem-loop motifs in unaligned RNA sequences
+# Nucleic Acids Research, 2001, Vol. 29, No. 10 2135-2144
+
+($actual, $prediction) = @ARGV;
+
+die "Usage: $0 f_actual f_prediction\n" unless defined($actual) and defined($prediction);
+
+%a = readCtFile($actual);
+%p = readCtFile($prediction);
+
+%seen = ();
+
+$TP = 0;
+$tp = 0;
+
+$FP = 0;
+$fp = 0;
+
+%seen = ();
+
+# calculating true positive and false positive
+
+for $i (keys %p) {
+  $j = $p{$i};
+
+  next if $seen{$i} or $seen{$j};
+
+  if (defined $a{$i} && $j == $a{$i}) {
+    $TP++;
+    $tp++;
+  } elsif (defined $a{$i} && (abs($a{$i}-$j) <= 1)) {
+    $tp++;
+    $FP++;
+  } elsif (defined $a{$i-1} && $j==$a{$i-1}) {
+    $tp++;
+    $FP++;
+  } elsif (defined $a{$i+1} && $j==$a{$i+1}) {
+    $tp++;
+    $FP++;
+  } else {
+    $FP++;
+    $fp++;
+  }
+
+  $seen{$i} = $j;
+  $seen{$j} = $i;
+}
+
+$FN = 0;
+$fn = 0;
+
+%seen = ();
+
+for $i (keys %a) {
+  $j = $a{$i};
+
+  next if $seen{$i} or $seen{$j};
+
+  $PRED = 0;
+  $pred = 0;
+
+  if (defined $p{$i} && $j == $p{$i}) {
+    $PRED = $pred = 1;
+  } elsif (defined $p{$i} && (abs($p{$i}-$j) <= 1)) {
+    $pred = 1;
+  } elsif (defined $p{$i-1} && $j==$p{$i-1}) {
+    $pred = 1;
+  } elsif (defined $p{$i+1} && $j==$p{$i+1}) {
+    $pred = 1;
+  }
+
+  $FN++ if ! $PRED;
+  $fn++ if ! $pred;
+
+  $seen{$i} = $j;
+  $seen{$j} = $i;
+}
+
+$SENSITIVITY =  ($TP + $FN) > 0 ? $TP/($TP + $FN) * 100 : "0.0";
+$sensitivity =  ($tp + $fn) > 0 ? $tp/($tp + $fn) * 100 : "0.0";
+
+$PPV =  ($TP + $FP) > 0 ? $TP/($TP + $FP) * 100 : "0.0";
+$ppv =  ($tp + $fp) > 0 ? $tp/($tp + $fp) * 100 : "0.0";
+
+if ( ($TP + $FN) == 0 || ($TP + $FP ) == 0 ) {
+  $MCC = "0.0";
+} else {
+  $MCC = sqrt( ( $TP / ($TP + $FN) ) * ( $TP / ($TP + $FP ) ) ) * 100;
+}
+
+if ( ($tp + $fn) == 0 || ($tp + $fp ) == 0 ) {
+  $mcc = "0.0";
+} else {
+  $mcc = sqrt( ( $tp / ($tp + $fn) ) * ( $tp / ($tp + $fp ) ) ) * 100;
+}
+
+printf "$TP\t$FP\t$FN\t%5.1f\t%5.1f\t%5.1f\t$tp\t$fp\t$fn\t%5.1f\t%5.1f\t%5.1f\n", $SENSITIVITY, $PPV, $MCC, $sensitivity, $ppv, $mcc;
+
+exit;
+
+sub readCtFile {
+  my $fileName = shift;
+
+  open FH, $fileName or die "cannot open file ($fileName): $!\n";
+
+  my $lineNo = 1;
+  <FH>; # skip info line
+
+  my %pairs = ();
+
+  while (<FH>) {
+    chomp();
+    $lineNo++;
+
+    if (! /\s*(\d+)\s+(\w)\s+(\d+)\s+(\d+)\s+(\d+)/) {
+	print "format error line $lineNo: $_\n";
+    } else {
+
+	my $i = $1;
+	my $j = $5;
+
+	next if $j == 0;
+
+	$pairs{$i} = $j;
+	$pairs{$j} = $i;
+    }
+
+  }
+
+  return @{ [ %pairs ] };
+
+}

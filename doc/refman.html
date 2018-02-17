@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>Seed 1.0: RNA Secondary Structure Motif Inference</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/mn.html)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/mn.html)"> 
+<!-- html --> 
+<meta name="src" content="refman.tex"> 
+<meta name="date" content="2005-08-05 17:08:00"> 
+<link rel="stylesheet" type="text/css" href="refman.css"> 
+</head><body 
+>
+   <div class="maketitle">
+
+
+
+<h2 class="titleHead">Seed 1.0: RNA Secondary Structure Motif Inference</h2>
+<div class="author" ><span 
+class="cmr-12">Truong Nguyen and Marcel Turcotte</span></div>
+<br>
+<div class="date" ><span 
+class="cmr-12">Copyright </span><span 
+class="cmsy-10x-x-120">&#169;</span><span 
+class="cmr-12">&nbsp;2003-05 University of Ottawa</span></div>
+   </div>
+   <table width="100%" 
+class="abstract"><tr><td 
+>
+<div class="center" 
+>
+<!--l. 32--><p class="noindent">
+<!--l. 32--><p class="noindent"><span 
+class="cmbx-9">Abstract</span></div>
+     <!--l. 34--><p class="indent">    <span 
+class="cmr-9">Seed is a novel approach for discovering consensus secondary structure motifs in a set of unaligned</span>
+     <span 
+class="cmr-9">RNA  sequences</span><span class="cite"><span 
+class="cmr-9">[</span><a 
+href="#XNguyen2005"><span 
+class="cmr-9">1</span></a><span 
+class="cmr-9">]</span></span><span 
+class="cmr-9">.  Its  representation  of  secondary  structure  motifs  combine  sequence  and  structure</span>
+     <span 
+class="cmr-9">information.  State-of-the-art  data  structures,  suffix  arrays  in  particular,  are  used  to  enumerate</span>
+     <span 
+class="cmr-9">exhaustively  the  space  of  possible  motifs.  Suffix  arrays  (SAs)  are  used  for  two  purposes.  First,  to</span>
+     <span 
+class="cmr-9">enumerate efficiently stem structures, including internal loops. Second, SAs are used to match secondary</span>
+     <span 
+class="cmr-9">structure expressions. This document serves as a reference manual and it also attempts to give you</span>
+     <span 
+class="cmr-9">indications to help you control the runtime of the program.</span>
+</td></tr></table>
+   <h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>Installing</h3>
+<!--l. 50--><p class="noindent">Seed is written in ISO C and uses some of extensions of the standard ISO C99 (use the option <span 
+class="cmtt-10">-std=c99 </span>with GCC).
+The software system and its libraries are known to run on Linux (RedHat 9 and Fedora Core 3)/i386 (Makefile.gcc),
+Solaris 9/Sparc (Makefile.sparc) and Solaris 9/i386 (Makefile.i386). Select the appropriate Makefile for your system,
+either copy this file to <span 
+class="cmtt-10">Makefile </span>or use <span 
+class="cmtt-10">make -f Makefile.arch</span>.
+<!--l. 58--><p class="noindent">
+   <h4 class="subsectionHead"><span class="titlemark">1.1   </span> <a 
+ id="x1-20001.1"></a>LIBRNA (Optional)</h4>
+<!--l. 60--><p class="noindent">Seed makes use of LIBRNA from the Vienna RNA Package to calculate and report the free energy of matching
+sequences. In order to enable this feature, you need to install the package first (follow the instructions therein).
+Locate and edit the following section of the Makefile,
+
+   <table width="100%" 
+class="verbatim"><tr class="verbatim"><td 
+class="verbatim"><div class="verbatim">
+RNALIB&nbsp;=
+&nbsp;<br />RNALIB_INCLUDE&nbsp;=
+&nbsp;<br />RNALIB_LIB&nbsp;=
+&nbsp;<br />RNALIB_LIBS&nbsp;=
+</div>
+</td></tr></table>
+<!--l. 69--><p class="nopar"> You will need to add the following declaration <span 
+class="cmtt-10">-DRNALIB </span>to <span 
+class="cmtt-10">RNALIB </span>so that the C preprocessor includes the sections
+for LIBRNA into the compilation. You will also need to give the path to the include and library directories. Here is
+a template that we use for our local Linux/i386 installation.
+
+   <table width="100%" 
+class="verbatim"><tr class="verbatim"><td 
+class="verbatim"><div class="verbatim">
+RNALIB&nbsp;=&nbsp;-DRNALIB
+&nbsp;<br />RNALIB_INCLUDE&nbsp;=&nbsp;-I/local/bio/sfw/include
+&nbsp;<br />RNALIB_LIB&nbsp;=&nbsp;-L&nbsp;/local/bio/sfw/exec/i386-pc-linux-gnu/lib/
+&nbsp;<br />RNALIB_LIBS&nbsp;=&nbsp;-lRNA&nbsp;-lm
+</div>
+</td></tr></table>
+<!--l. 80--><p class="nopar">
+<!--l. 82--><p class="noindent">
+   <h4 class="subsectionHead"><span class="titlemark">1.2   </span> <a 
+ id="x1-30001.2"></a>Seed</h4>
+<!--l. 84--><p class="noindent">The compilation and installation of Seed is a straight forward process. Type <span 
+class="cmtt-10">make</span>, possibly <span 
+class="cmtt-10">make check </span>and then
+<span 
+class="cmtt-10">make install</span>. The default option is to install Seed into the <span 
+class="cmtt-10">bin </span>subdirectory of the distribution top directory. This
+option is controled by the variable <span 
+class="cmtt-10">BINDIR </span>of the main Makefile. By default, Seed is statistically linked and does not
+require any external files, therefore, is can safely been moved to any location (simply make sure that this directory is
+found on your <span 
+class="cmtt-10">PATH</span>).
+<!--l. 94--><p class="noindent">
+   <h3 class="sectionHead"><span class="titlemark">2   </span> <a 
+ id="x1-40002"></a>Basic usage</h3>
+<!--l. 96--><p class="noindent">Typing <span 
+class="cmtt-10">seed</span>, <span 
+class="cmtt-10">seed -h </span>or <span 
+class="cmtt-10">seed --help </span>lists all the valid options.
+
+   <table width="100%" 
+class="verbatim"><tr class="verbatim"><td 
+class="verbatim"><div class="verbatim">
+&gt;&nbsp;seed
+&nbsp;<br />
+&nbsp;<br />Usage:&nbsp;seed&nbsp;[options]&nbsp;file
+&nbsp;<br />where&nbsp;file&nbsp;is&nbsp;a&nbsp;FASTA&nbsp;file&nbsp;that&nbsp;contains&nbsp;k&nbsp;input&nbsp;RNA&nbsp;sequences.
+&nbsp;<br />
+&nbsp;<br />Options:
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--seed&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;0)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--stem_min_len&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;3)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--stem_max_gu&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;100)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--min_num_stem&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;1)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--max_num_stem&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;2)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--stem_max_separation&nbsp;&lt;n&gt;&nbsp;(default&nbsp;150)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--skip_keep_longest_stems&nbsp;(default&nbsp;false)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--loop_min_len&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;4)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--nogu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;false)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--range&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;1)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--max_mismatch&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;2)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--max_fixed_pos&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;100)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--min_base_pair&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;5)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--min_support&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;0.70)
+&nbsp;<br />&nbsp;&nbsp;-t&nbsp;--time_limit&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;0)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--save_all_matches&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;false)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--save_as_ct&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;false)
+&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--save_motifs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;false)
+&nbsp;<br />&nbsp;&nbsp;-m&nbsp;--match_file&nbsp;&lt;file&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(no&nbsp;default)
+&nbsp;<br />&nbsp;&nbsp;-d&nbsp;--destination&nbsp;&lt;dir&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;.)
+&nbsp;<br />&nbsp;&nbsp;-p&nbsp;--print_level&nbsp;&lt;n&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;1)
+&nbsp;<br />&nbsp;&nbsp;-q&nbsp;--quiet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(default&nbsp;false)
+&nbsp;<br />&nbsp;&nbsp;-v&nbsp;--version
+&nbsp;<br />&nbsp;&nbsp;-h&nbsp;--help
+</div>
+</td></tr></table>
+<!--l. 129--><p class="nopar">
+<!--l. 131--><p class="indent">   The minimum requirement is an input FASTA file containing <span 
+class="cmmi-10">k </span>input RNA sequences.
+
+   <table width="100%" 
+class="verbatim"><tr class="verbatim"><td 
+class="verbatim"><div class="verbatim">
+&gt;&nbsp;seed&nbsp;examples/tRNAs-2.fas
+&nbsp;<br />
+&nbsp;<br />Seed&nbsp;1.0&nbsp;[Jul&nbsp;23&nbsp;2005]&nbsp;-&nbsp;RNA&nbsp;secondary&nbsp;structure&nbsp;motif&nbsp;inference
+&nbsp;<br />
+&nbsp;<br />Copyright&nbsp;(C)&nbsp;2003-05&nbsp;University&nbsp;of&nbsp;Ottawa
+&nbsp;<br />All&nbsp;Rights&nbsp;Reserved
+&nbsp;<br />
+&nbsp;<br />This&nbsp;program&nbsp;is&nbsp;distributed&nbsp;under&nbsp;the&nbsp;terms&nbsp;of&nbsp;the
+&nbsp;<br />GNU&nbsp;General&nbsp;Public&nbsp;License.&nbsp;See&nbsp;the&nbsp;source&nbsp;code
+&nbsp;<br />for&nbsp;details.
+&nbsp;<br />
+&nbsp;<br />[&nbsp;find_all_stems&nbsp;]
+&nbsp;<br />[&nbsp;size&nbsp;of&nbsp;the&nbsp;motif&nbsp;list&nbsp;is&nbsp;164&nbsp;]
+&nbsp;<br />[&nbsp;filter_by_support&nbsp;]
+&nbsp;<br />[&nbsp;size&nbsp;of&nbsp;the&nbsp;motif&nbsp;list&nbsp;is&nbsp;146&nbsp;]
+&nbsp;<br />[&nbsp;filter_keep_longest_stems&nbsp;]
+&nbsp;<br />[&nbsp;size&nbsp;of&nbsp;the&nbsp;motif&nbsp;list&nbsp;is&nbsp;89&nbsp;]
+&nbsp;<br />[&nbsp;fix_all&nbsp;]
+&nbsp;<br />[&nbsp;size&nbsp;of&nbsp;the&nbsp;motif&nbsp;list&nbsp;is&nbsp;391&nbsp;]
+&nbsp;<br />[&nbsp;combine_all&nbsp;]
+&nbsp;<br />[&nbsp;generating&nbsp;all&nbsp;2&nbsp;stems&nbsp;motifs&nbsp;]
+&nbsp;<br />[&nbsp;size&nbsp;of&nbsp;the&nbsp;motif&nbsp;list&nbsp;is&nbsp;391&nbsp;]
+&nbsp;<br />[&nbsp;done&nbsp;]
+&nbsp;<br />[&nbsp;size&nbsp;of&nbsp;the&nbsp;motif&nbsp;list&nbsp;is&nbsp;958&nbsp;]
+&nbsp;<br />[&nbsp;postprocess&nbsp;]
+&nbsp;<br />[&nbsp;size&nbsp;of&nbsp;the&nbsp;motif&nbsp;list&nbsp;is&nbsp;958&nbsp;]
+&nbsp;<br />[&nbsp;elapsed&nbsp;time&nbsp;2&nbsp;minutes,&nbsp;34&nbsp;seconds&nbsp;]
+&nbsp;<br />[&nbsp;total&nbsp;number&nbsp;of&nbsp;match&nbsp;operations&nbsp;is&nbsp;221004&nbsp;]
+</div>
+</td></tr></table>
+<!--l. 162--><p class="nopar"> By default, the first sequence (index 0) is used as the seed. The program will first enumerate all the possible stems
+that are at least three nucleotides long, allowing for GU base pairs and up to one mismatch. This list is filtered to
+preserve only the motifs that are present in 70% of the input sequences. The algorithm then creates new motifs, first
+making the generic stems specific by adding base pairs from the seed sequence. Secondly, the algorithm
+combines the one-stem motifs together to produce two-stem motifs. By default, Seed stops this process
+at two stems. It reports statistics and then stop. No motifs are saved by default, this allows you to
+explore the effect of various options and avoid unfortunate suprises, such as writing out 250 Mbytes of
+data.
+<!--l. 176--><p class="indent">   Once a suitable set of options has been found, use one of the many options for saving the results. Here is a
+possible scenario.
+
+   <table width="100%" 
+class="verbatim"><tr class="verbatim"><td 
+class="verbatim"><div class="verbatim">
+&gt;&nbsp;mkdir&nbsp;results/01
+&nbsp;<br />&gt;&nbsp;seed&nbsp;--quiet&nbsp;--destination&nbsp;results/01&nbsp;--save_motifs&nbsp;--min_num_stem&nbsp;3&nbsp;\
+&nbsp;<br />&nbsp;&nbsp;--max_num_stem&nbsp;100&nbsp;--range&nbsp;2&nbsp;examples/tRNAs-2.fas
+</div>
+</td></tr></table>
+<!--l. 182--><p class="nopar"> The motifs will be saved (in XML format) in files named <span 
+class="cmtt-10">motif.xml </span>located into subdirectories of the destination
+folder. The destination folder also contains a file named <span 
+class="cmtt-10">params.xml </span>that records the options that were used for this
+run.
+<!--l. 189--><p class="noindent">
+   <h3 class="sectionHead"><span class="titlemark">3   </span> <a 
+ id="x1-50003"></a>Options</h3>
+<!--l. 191--><p class="noindent">
+     <dl class="description"><dt class="description">
+<span 
+class="cmtt-10">--seed &lt;n&gt; </span><span 
+class="cmbx-10">(default 0):</span> </dt><dd 
+class="description">This option selects a specific seed sequence. Valid values are integers in the range
+     0<span 
+class="cmmi-10">...</span><span 
+class="cmmi-10">k </span><span 
+class="cmsy-10">- </span>1, where <span 
+class="cmmi-10">k </span>is the number of input sequences.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--stem</span><span 
+class="cmtt-10">_min</span><span 
+class="cmtt-10">_len &lt;n&gt; </span><span 
+class="cmbx-10">(default 3):</span> </dt><dd 
+class="description">During the first step of the search, Seed enumerates all the valid stems.
+     For a given pair of positions <span 
+class="cmmi-10">i </span>and <span 
+class="cmmi-10">j</span>, Seed computes the longest extension <span 
+class="cmmi-10">l </span>such that <span 
+class="cmmi-10">S</span>[<span 
+class="cmmi-10">i,i</span>+<span 
+class="cmmi-10">l</span><span 
+class="cmsy-10">-</span>1] and
+     <span 
+class="cmmi-10">S</span>[<span 
+class="cmmi-10">j,j </span><span 
+class="cmsy-10">-</span><span 
+class="cmmi-10">l </span>+1] forms a canonical stem (a stem made of canonical base pairs only, possibly including GU
+     base pairs), if the current number of mismatches is smaller than the user defined threshold then Seed
+     repeats this process from <span 
+class="cmmi-10">i </span>+ <span 
+class="cmmi-10">l </span>+ 1 and <span 
+class="cmmi-10">j </span><span 
+class="cmsy-10">- </span><span 
+class="cmmi-10">l </span><span 
+class="cmsy-10">- </span>1. This option controls the minum value of <span 
+class="cmmi-10">l </span>for each
+     iteration of the extension process.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--stem</span><span 
+class="cmtt-10">_max</span><span 
+class="cmtt-10">_gu &lt;n&gt; </span><span 
+class="cmbx-10">(default 100):</span> </dt><dd 
+class="description">Controls the maximum number of GU base pairs.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--min</span><span 
+class="cmtt-10">_num</span><span 
+class="cmtt-10">_stem &lt;n&gt; </span><span 
+class="cmbx-10">(default 1):</span> </dt><dd 
+class="description">Motifs having less than this number of stems are not reported.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--max</span><span 
+class="cmtt-10">_num</span><span 
+class="cmtt-10">_stem &lt;n&gt; </span><span 
+class="cmbx-10">(default 2):</span> </dt><dd 
+class="description">Stops the algorithm when all the motifs having this many stems have
+     been produced.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--stem</span><span 
+class="cmtt-10">_max</span><span 
+class="cmtt-10">_separation &lt;n&gt; </span><span 
+class="cmbx-10">(default 150):</span> </dt><dd 
+class="description">In the stem enumeration step, limits the maximum distance
+     between the start and end of a stem.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--skip</span><span 
+class="cmtt-10">_keep</span><span 
+class="cmtt-10">_longest</span><span 
+class="cmtt-10">_stems </span><span 
+class="cmbx-10">(default false):</span> </dt><dd 
+class="description">Generates  all  the  stems  from  <span 
+class="cmtt-10">stem</span><span 
+class="cmtt-10">_min</span><span 
+class="cmtt-10">_len </span>up  to  the
+     maximum possible size.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--loop</span><span 
+class="cmtt-10">_min</span><span 
+class="cmtt-10">_len &lt;n&gt; </span><span 
+class="cmbx-10">(default 4):</span> </dt><dd 
+class="description">Defines the minimum size of loops.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--nogu </span><span 
+class="cmbx-10">(default false):</span> </dt><dd 
+class="description">Disallow GU base pairs.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--range &lt;n&gt; </span><span 
+class="cmbx-10">(default 1):</span> </dt><dd 
+class="description">The number of additional base pairs that are allowed when matching a range
+     element (when calculating the support of a motif).
+
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--max</span><span 
+class="cmtt-10">_mismatch &lt;n&gt; </span><span 
+class="cmbx-10">(default 2):</span> </dt><dd 
+class="description">The   maximum   number   of   mismatches   that   are   allowed   when
+     enumerating stems and matching motifs.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--max</span><span 
+class="cmtt-10">_fixed</span><span 
+class="cmtt-10">_pos &lt;n&gt; </span><span 
+class="cmbx-10">(default 100):</span> </dt><dd 
+class="description">The maximum number of base pairs that will be fixed in fix_all
+     stem.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--min</span><span 
+class="cmtt-10">_base</span><span 
+class="cmtt-10">_pair &lt;n&gt; </span><span 
+class="cmbx-10">(default 5):</span> </dt><dd 
+class="description">The minum number of base pairs for the sum of all base pairs.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--min</span><span 
+class="cmtt-10">_support &lt;n&gt; </span><span 
+class="cmbx-10">(default 0.70):</span> </dt><dd 
+class="description">The  fraction  of  the  input  sequences  that  a  motif  matches  to  be
+     retained.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">-t --time</span><span 
+class="cmtt-10">_limit &lt;n&gt; </span><span 
+class="cmbx-10">(default 0):</span> </dt><dd 
+class="description">Limits the execution time to the specified number of minutes.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--save</span><span 
+class="cmtt-10">_all</span><span 
+class="cmtt-10">_matches </span><span 
+class="cmbx-10">(default false):</span> </dt><dd 
+class="description">Simple motifs may match the input sequences at several locations,
+     with this option all of them will be saved.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--save</span><span 
+class="cmtt-10">_as</span><span 
+class="cmtt-10">_ct </span><span 
+class="cmbx-10">(default false):</span> </dt><dd 
+class="description">Saves the matches as ct (MFOLD) files. This can be convenient to visualise,
+     compare and cluster the results.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">--save</span><span 
+class="cmtt-10">_motifs </span><span 
+class="cmbx-10">(default false):</span> </dt><dd 
+class="description">Save  the  motifs  as  XML  files,  creates  a  directory  structure  with  one
+     directory per motif.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">-d --destination &lt;dir&gt; </span><span 
+class="cmbx-10">(default .):</span> </dt><dd 
+class="description">Where to save the motifs.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">-m --match</span><span 
+class="cmtt-10">_file &lt;file&gt; </span><span 
+class="cmbx-10">(no default):</span> </dt><dd 
+class="description">Saves all the matches into a single file.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">-p --print</span><span 
+class="cmtt-10">_level &lt;n&gt; </span><span 
+class="cmbx-10">(default 1):</span> </dt><dd 
+class="description">Increases/decreases the verbosity.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">-q --quiet </span><span 
+class="cmbx-10">(default false):</span> </dt><dd 
+class="description">Turns off all the traces.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">-v --version</span><span 
+class="cmbx-10">:</span> </dt><dd 
+class="description">Prints the version information.
+     </dd><dt class="description">
+<span 
+class="cmtt-10">-h --help</span><span 
+class="cmbx-10">:</span> </dt><dd 
+class="description">Lists all the options.</dd></dl>
+<!--l. 251--><p class="noindent">
+   <h3 class="sectionHead"><span class="titlemark">4   </span> <a 
+ id="x1-60004"></a>Controlling the size of the search space</h3>
+<!--l. 253--><p class="noindent">Seed performs a breath-first-search of the secondary structure motif space induced from a seed sequence. Seed
+provides many options to control the size of the search space, which can be quite large. A good understanding of the
+motif discovery algorithm, its parameters and the problem to solve will help reduce the execution
+time.
+
+<!--l. 259--><p class="indent">   Seed searches a space of secondary structure motif induced from a seed sequence. Selecting a shorter input
+sequence as the seed will greatly reduce the size of the initial list of motifs and, consequently, greatly reduce the
+execution time. This leads to a more general observation, reducing the size of the initial list of motifs reduces
+the branching factor of the search tree, and will also greatly reduce the execution time. Other ways
+to reduce the size of the initial list of motifs include: specifying a small number of fixed positions
+(<span 
+class="cmtt-10">--max</span><span 
+class="cmtt-10">_fixed</span><span 
+class="cmtt-10">_pos 0 </span>produces generic motifs). Limiting the maximum separation between elements of a
+base pair diminishes the size of the initial list of motif (<span 
+class="cmtt-10">--stem</span><span 
+class="cmtt-10">_max</span><span 
+class="cmtt-10">_separation 30 </span>will produce
+motifs such that the maximum distance between any two elements of a pair is 30 nucleotides or less).
+Requiring a higher level of support is also an effective way to keep the size of the open list of motifs
+short.
+<!--l. 275--><p class="indent">   When everything else fails, imposing a time limit will allow you to obtain some results that hopefully will help
+you defining new constraints to further reduce the search space. Seed uses an iterative deepening algorithm for
+enumerating the motifs, it will first enumerate all the one-stem, two-stem motifs, and so on. Using a time constraint
+allows you to explore the search tree up to a certain depth.
+<!--l. 290--><p class="indent">
+
+   <h3 class="likesectionHead"><a 
+ id="x1-70004"></a>References</h3>
+<!--l. 1--><p class="noindent">
+   <div class="thebibliography">
+   <p class="bibitem"><span class="biblabel">
+ [1]<span class="bibsp">&nbsp;&nbsp;&nbsp;</span></span><a 
+ id="XNguyen2005"></a>Truong Nguyen and Marcel Turcotte. Exploring the space of RNA secondary structure motifs using
+   suffix arrays.   In S.&nbsp;Blair <span 
+class="cmti-10">et al.</span>, editor, <span 
+class="cmti-10">6th International Symposium on Computational Biology and</span>
+   <span 
+class="cmti-10">Genome Informatics (CBGI 2005)</span>, pages 1291-1298, Salt Lake City, Utah, USA, July 21-26 2005.
+</p>
+   </div>
+    
+</body></html> 
+
+
+

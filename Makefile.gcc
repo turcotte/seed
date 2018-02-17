@@ -1,0 +1,80 @@
+##                           -*- Mode: Makefile -*- 
+## Makefile --- 
+## Author          : Truong Nguyen and Marcel Turcotte
+## Created On      : Wed Jun  8 08:20:27 2005
+## Last Modified By: Marcel Turcotte
+## Last Modified On: Wed Oct  8 10:11:18 2014
+##
+## This copyrighted source code is freely distributed under the terms
+## of the GNU General Public License. 
+## See the files COPYRIGHT and LICENSE for details.
+                                                                               
+
+SHELL = /bin/sh
+
+LIBDEV_DIR = ./src/libdev
+
+LIBVTREE_DIR = ./src/libvtree
+
+LIBBIO_DIR = ./src/libbio
+
+ALGORITHMS_DIR = ./src/algorithms
+
+BIN_DIR = ../../bin/i386-pc-linux-gnu
+
+## Without RNALIB support
+
+RNALIB =
+RNALIB_INCLUDE =
+RNALIB_LIB =
+RNALIB_LIBS =
+
+## With RNALIB support
+
+# RNALIB = -DRNALIB
+# RNALIB_INCLUDE = -I/local/bio/sfw/include
+# RNALIB_LIB = -L /local/bio/sfw/exec/i386-pc-linux-gnu/lib/
+# RNALIB_LIBS = -lRNA -lm
+
+CC = gcc
+CFLAGS = -g -std=c99 -Wall
+# CFLAGS = -O -std=c99
+
+AR = ar
+RANLIB = ranlib
+
+MFLAGS = CC="$(CC)" CFLAGS="$(CFLAGS)" AR="$(AR)" RANLIB="$(RANLIB)" BIN_DIR="$(BIN_DIR)"
+RNALIB_FLAGS = RNALIB="$(RNALIB)" RNALIB_INCLUDE="$(RNALIB_INCLUDE)" RNALIB_LIB="$(RNALIB_LIB)" RNALIB_LIBS="$(RNALIB_LIBS)"
+
+all: libdev libvtree libbio algorithms
+
+libdev:
+	cd $(LIBDEV_DIR) ; $(MAKE) $(MFLAGS) all
+
+libvtree:
+	cd $(LIBVTREE_DIR) ; $(MAKE) $(MFLAGS) all
+
+libbio:
+	cd $(LIBBIO_DIR) ; $(MAKE) $(MFLAGS) all
+
+algorithms:
+	cd $(ALGORITHMS_DIR) ; $(MAKE) $(MFLAGS) $(RNALIB_FLAGS) all
+
+install:
+	cd $(ALGORITHMS_DIR) ; $(MAKE) $(MFLAGS) $(RNALIB_FLAGS) install
+
+check:
+	cd $(LIBDEV_DIR) ; $(MAKE) $(MFLAGS) check
+	cd $(LIBVTREE_DIR) ; $(MAKE) $(MFLAGS) check
+	cd $(LIBBIO_DIR) ; $(MAKE) $(MFLAGS) check
+	cd $(ALGORITHMS_DIR) ; $(MAKE) $(MFLAGS) check
+
+clean:
+	cd $(LIBDEV_DIR) ; $(MAKE) clean
+	cd $(LIBVTREE_DIR) ; $(MAKE) clean
+	cd $(LIBBIO_DIR) ; $(MAKE) clean
+	cd $(ALGORITHMS_DIR) ; $(MAKE) clean
+	rm -f *~
+
+.SILENT:
+

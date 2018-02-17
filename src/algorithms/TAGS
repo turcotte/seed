@@ -1,0 +1,144 @@
+
+find.c,45
+display_usage_and_exit(25,820
+main(36,1123
+
+ida.c,253
+make_all_vtrees(42,1200
+calculate_support(69,1784
+filter_by_support(86,2278
+filter_keep_longest_stems(115,2955
+fix_all(166,4202
+fix_all2(218,5744
+combine_allall(275,7175
+postprocess(343,8709
+display_statistics(420,10528
+ida_discover(463,11534
+
+match.c,252
+#define LEFT_PAREN 27,782
+#define RIGHT_PAREN 28,805
+#define SEQ_ELEM 29,829
+} pattern_t;39,1126
+report_matches(46,1348
+match_sec_struc_edge(68,2173
+match_sec_struc_node(142,4109
+match_sec_struc(175,5065
+isnuc_or_struc(204,5884
+main(214,6178
+
+misc.c,118
+#define SECONDS_PER_MINUTE 16,444
+#define SECONDS_PER_HOUR 17,474
+time_limit_exceeded(24,712
+asc_cpu_time(47,1293
+
+motif.c,1155
+get_sym_5_to_3(31,872
+new_stem_motif(68,1675
+expression_next(129,3029
+free_expression(142,3347
+free_motif(167,3783
+clone_expression(178,4084
+clone_motif(241,5772
+add_match(260,6304
+match_edge(333,8248
+match_node(505,12415
+match(540,13377
+occurs(571,14340
+free_match(592,14897
+element_start(606,15241
+expression_start(625,15746
+motif_start(645,16284
+element_end(656,16598
+expression_end(677,17096
+motif_end(701,17658
+element_before(712,17959
+expression_before(722,18270
+motif_before(732,18590
+expression_append(742,18896
+motif_append(777,19836
+replace_range_by_stem(797,20417
+motif_insert(869,22441
+combine(943,23988
+stem_within(972,24529
+element_is_equivalent(998,25391
+expression_is_equivalent(1042,26398
+motif_is_equivalent(1060,26963
+expression_num_base_pair(1104,28093
+motif_num_base_pair(1122,28517
+motif_to_string(1137,29151
+report_motif(1199,30419
+remove_non_canonical_bp(1283,32108
+save_matches(1322,33064
+create_base_pair_pos_array(1403,35208
+save_match_as_ct(1442,35900
+save_motif(1490,37229
+#define SECTION_SIZE 1516,37929
+make_dirname(1519,37971
+save_matches_as_ct(1565,39100
+save_motifs(1623,40441
+
+seed.c,169
+display_banner(28,826
+static char usage[usage44,1435
+display_usage_and_exit(77,2673
+param_init(88,2961
+process_argv(127,4233
+save_params(270,8426
+main(314,10996
+
+stems.c,67
+make_dpalindrome(32,1027
+get_lce(50,1456
+find_all_stems(94,2400
+
+ida.h,21
+#define IDA_H14,460
+
+misc.h,22
+#define MISC_H10,251
+
+motif.h,415
+#define MOTIF_H14,477
+typedef enum element 26,797
+typedef enum element { left,26,797
+typedef enum element { left, right,26,797
+typedef enum element { left, right, unpaired,26,797
+typedef enum element { left, right, unpaired, range 26,797
+typedef enum element { left, right, unpaired, range } element_t;26,797
+typedef struct expression_s 32,1066
+} expression_t;42,1296
+} motif_t;54,1627
+} match_t;66,1938
+
+seed.h,742
+#define SEED_H14,472
+#define VERSION 20,533
+} param_t;54,1295
+#define DEFAULT_SEED 60,1510
+#define STEM_MIN_LEN 61,1533
+#define MIN_NUM_STEM 62,1556
+#define MAX_NUM_STEM 63,1579
+#define STEM_MAX_GU 64,1602
+#define STEM_MAX_SEPARATION 65,1626
+#define SKIP_KEEP_LONGEST_STEMS 66,1658
+#define LOOP_MIN_LEN 67,1696
+#define NOGU 68,1719
+#define RANGE 69,1738
+#define MAX_MISMATCH 70,1754
+#define MAX_FIXED_POS 71,1777
+#define MIN_BASE_PAIR 72,1803
+#define MIN_SUPPORT 73,1827
+#define TIME_LIMIT 74,1852
+#define SAVE_ALL_MATCHES 75,1873
+#define SAVE_AS_CT 76,1904
+#define SAVE_MOTIFS 77,1929
+#define MATCH_FILE 78,1955
+#define DESTINATION 79,1979
+#define FILENAME 80,2004
+#define PRINT_LEVEL 81,2026
+#define QUIET 82,2048
+
+stems.h,23
+#define STEMS_H14,480

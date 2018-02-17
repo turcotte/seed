@@ -1,0 +1,74 @@
+#! /usr/bin/perl -w
+#                              -*- Mode: Cperl -*-
+# bracket2ct --- converts from the bracket format to ct format
+# Author          : Marcel Turcotte
+# Created On      : Wed May 19 10:18:53 2004
+# Last Modified By: Marcel Turcotte
+# Last Modified On: Fri Aug  5 15:12:34 2005
+#
+# This copyrighted source code is freely distributed under the terms
+# of the GNU General Public License.
+# See the files COPYRIGHT and LICENSE for details.
+
+# Assumptions:
+# - input file contains a single model
+# - sequence is a single line
+# - structure is a single line
+
+$id = 'unnamed';
+
+while (<>) {
+
+  chomp();
+
+  next if /^\s*$/;             # empty line
+
+  if (/^>\s*(.*)/) {           # comment
+     $id = $1;
+     next;
+  }
+
+  tr /acgtun/ACGTUN/;
+
+  if (/^[.()]+$/) {            # structure
+    $sec = $_;
+  } elsif (/^[ACGTUN]+$/) {     # sequence
+    $seq = $_;
+  } else {
+    die "not a valid input line\n";
+  }
+}
+
+die "not a valid input\n" unless length($sec) == length($seq);
+
+$n = length($sec);
+
+%pairs = ();
+
+@stack = ();
+
+for ($offset=0; $offset<$n; $offset++) {
+  $c = substr($sec, $offset,  1);
+
+  if ($c eq "(") {
+    push @stack, $offset;
+  } elsif ($c eq ")") {
+    $start = pop @stack;
+
+    $pairs{$start} = $offset;
+    $pairs{$offset} = $start;
+  }
+}
+
+printf "%5d   dG = 0.0  [initially  0.0]    $id\n", $n;
+
+for ($offset=0; $offset<$n; $offset++) {
+
+  $c = substr($seq, $offset,  1);
+
+  $pair = -1;
+  $pair = $pairs{$offset} if defined $pairs{$offset};
+
+  printf "%5d %s %5d %5d %5d %5d\n", $offset+1, $c, $offset, $offset+2, $pair+1, $offset+1;
+
+}

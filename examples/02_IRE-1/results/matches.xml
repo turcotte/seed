@@ -1,0 +1,4162 @@
+<motifs>
+  <motif id="0">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.......)))..(((.......)))</sec>
+    <match id="0">
+       <offset>30</offset>
+       <energy>0.1</energy>
+       <seq>CTTCGGGCTCAAGAGGGTGGCAGCAGCC</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>154</offset>
+       <energy>0.1</energy>
+       <seq>CACCGTTTTTGTGGTTAGCTCCTTCTTG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>165</offset>
+       <energy>0.1</energy>
+       <seq>CACCGTTTTTGTGGTTAGCTCCTTCTTG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="6">
+       <offset>152</offset>
+       <energy>0.1</energy>
+       <seq>CGCCGCTCCAGCGCCGCGCAGCCACCGC</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="6">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TGCTTCAACAGTGCTTGGACGGAACCCG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="7">
+       <offset>64</offset>
+       <energy>0.1</energy>
+       <seq>TGGGCCGGGATTGGGCGGTTGGTGGTCG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>127</offset>
+       <energy>0.1</energy>
+       <seq>ACAGCTTTGCTGTTGTTGTTTGCCTTAG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>169</offset>
+       <energy>0.1</energy>
+       <seq>CTTTCGGCATAAGGCTGTTGTGCTTATA</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>210</offset>
+       <energy>0.1</energy>
+       <seq>AGAGGTGCTATCTCCAGTTCCTTGCACT</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>GCTGGCTCAGGGCGTCCGCTAGGCTCGG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>233</offset>
+       <energy>0.1</energy>
+       <seq>CGGGATTTTCCTGGGTGCGGGGACAGTG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>326</offset>
+       <energy>0.1</energy>
+       <seq>AGAGGTCCTATCTCCAGTTCCTTGCACT</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>126</offset>
+       <energy>0.1</energy>
+       <seq>GCTGGCTCAGGGCGTCCGCTAGGCTCGG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1297</offset>
+       <energy>0.1</energy>
+       <seq>AAATATGATGTTTGGTAGTTCGGAGCTA</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1004</offset>
+       <energy>0.1</energy>
+       <seq>AATACAAAAAATTAGCTGGGCATGGTGG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>236</offset>
+       <energy>0.1</energy>
+       <seq>CACAGGCTCAGTGTGGTCTTGGTGGGAC</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1019</offset>
+       <energy>0.1</energy>
+       <seq>CTGGGCATGGTGGCAGGTGCCTCTAATC</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1967</offset>
+       <energy>0.1</energy>
+       <seq>CTGTTGTGGCTGGAAAAGAAGTGTTCTT</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1558</offset>
+       <energy>0.1</energy>
+       <seq>GCAGGGCCCCTGCTGCCTGCCAGGTGGG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>590</offset>
+       <energy>0.1</energy>
+       <seq>TTGTTTGCTTCAGCCCCTAGAAATCAGG</seq>
+       <sec>(((.......)))..(((.......)))</sec>
+    </match>
+  </motif>
+  <motif id="1">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.........)))....(((......)))</sec>
+    <match id="0">
+       <offset>19</offset>
+       <energy>0.1</energy>
+       <seq>GGGCAACAGAACTTCGGGCTCAAGAGGGTGG</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="3">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGCAGTTCGGCGGTCCCGCGGGTCTGTCTCT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="3">
+       <offset>47</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="4">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGCAGTTCGGCGGTCCCGCGGGTCTGTCTCT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="4">
+       <offset>47</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="5">
+       <offset>25</offset>
+       <energy>0.1</energy>
+       <seq>GAGGATCTGTATCTTGCTTCAACAGTGTTTG</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="7">
+       <offset>192</offset>
+       <energy>0.1</energy>
+       <seq>GTGGAAGAAGAGCGTCTAGTTTGGTGAAGGA</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="7">
+       <offset>178</offset>
+       <energy>0.1</energy>
+       <seq>TTTACTTTTGTCAGGTGGAAGAAGAGCGTCT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="8">
+       <offset>183</offset>
+       <energy>0.1</energy>
+       <seq>CTGTTGTGCTTATAGTGGTGCTATCTTCGGT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="8">
+       <offset>151</offset>
+       <energy>0.1</energy>
+       <seq>TTAGTTGTCCTTTGGGGTCTTTCGGCATAAG</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="9">
+       <offset>190</offset>
+       <energy>0.1</energy>
+       <seq>CTGCTGTGCTTATAGCCGTGCTATCTCCGGT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="9">
+       <offset>158</offset>
+       <energy>0.1</energy>
+       <seq>TTAGTTGTCCTTTGGGGTCTTTCGGCACAAG</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="10">
+       <offset>197</offset>
+       <energy>0.1</energy>
+       <seq>CTGTTGTGTTTTTAGAGGTGCTATCTCCAGT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="11">
+       <offset>128</offset>
+       <energy>0.1</energy>
+       <seq>AGGCGCGGGGATCCTGAGCTCTGACCTGGGG</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="13">
+       <offset>410</offset>
+       <energy>0.1</energy>
+       <seq>CGTTCAGAATACATGTGGGAACACTAATGTT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="13">
+       <offset>886</offset>
+       <energy>0.1</energy>
+       <seq>GGGGCGTGGTGGCTCACGCCTGTAATCCCAG</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="13">
+       <offset>106</offset>
+       <energy>0.1</energy>
+       <seq>GGTCGGGACTCGGCTCATCTGGGCTTTGCCA</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1323</offset>
+       <energy>0.1</energy>
+       <seq>TATGGTCTAGCCATGTGAACAGCGGACACTG</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+    <match id="13">
+       <offset>841</offset>
+       <energy>0.1</energy>
+       <seq>TCTTACCTTGCTGGGAGTCAATAGCTCAATT</seq>
+       <sec>(((.........)))....(((......)))</sec>
+    </match>
+  </motif>
+  <motif id="2">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.........)))............(((.......)))</sec>
+    <match id="0">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>AGGGCAACAGAACTTCGGGCTCAAGAGGGTGGCAGCAGCC</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="2">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>TGGATCTGTGTCTTGCTTCAACAGTGTTTGAACGGAACAG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>21</offset>
+       <energy>0.1</energy>
+       <seq>CGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACGGAACAG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>21</offset>
+       <energy>0.1</energy>
+       <seq>CGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACGGAACAG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="7">
+       <offset>184</offset>
+       <energy>0.1</energy>
+       <seq>TTTGTCAGGTGGAAGAAGAGCGTCTAGTTTGGTGAAGGAG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>97</offset>
+       <energy>0.1</energy>
+       <seq>TTGGAAAGAAGACAAAAAGAAGACCCCGTGACAGCTTTGC</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>156</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTTGCCAAAGTCGTCGTTGTAGTCTTTTTGCCCAAG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>120</offset>
+       <energy>0.1</energy>
+       <seq>CGCAGCTAAGGCGCGGGGATCCTGAGCTCTGACCTGGGGA</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>222</offset>
+       <energy>0.1</energy>
+       <seq>CTCGTGGAGCGCGGGATTTTCCTGGGTGCGGGGACAGTGC</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>119</offset>
+       <energy>0.1</energy>
+       <seq>GCGCAGCTAAGGCGCGGGGATCCTGAGCTCTGACCTGGGG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>272</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTTGCCAAAGTCGTCGTTGTAGTCTTTTTGCCCAAG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1294</offset>
+       <energy>0.1</energy>
+       <seq>AATAAATATGATGTTTGGTAGTTCGGAGCTATGGTCTAGC</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>80</offset>
+       <energy>0.1</energy>
+       <seq>AGCCCGTCCACAGCTATTCTTGCTGTGGTCGGGACTCGGC</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1626</offset>
+       <energy>0.1</energy>
+       <seq>CACCTTTTCTGGGTGCTCAGGAAGCCGATGAGATGTGTGT</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1080</offset>
+       <energy>0.1</energy>
+       <seq>CTTGAACCCGGGAGGCAGAGGTTGCAGTGAGCCGAGATTG</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>750</offset>
+       <energy>0.1</energy>
+       <seq>GAGTAATGCGTTTTCTGATGCATTATGGTTATGTCTAAAC</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1405</offset>
+       <energy>0.1</energy>
+       <seq>TTATTTTACTCTTAAGATGTCGCACGCGGCCACAAGCGCC</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1285</offset>
+       <energy>0.1</energy>
+       <seq>TTTTAAGGAAATAAATATGATGTTTGGTAGTTCGGAGCTA</seq>
+       <sec>(((.........)))............(((.......)))</sec>
+    </match>
+  </motif>
+  <motif id="3">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.........)))...(((.........)))</sec>
+    <match id="0">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>AGGGCAACAGAACTTCGGGCTCAAGAGGGTGGC</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="1">
+       <offset>15</offset>
+       <energy>0.1</energy>
+       <seq>TTGGTTCGTCCTCAGTGCAGGGCAACAGGACTT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="2">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>TGTCTTGCTTCAACAGTGTTTGAACGGAACAGA</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="3">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGCAGTTCGGCGGTCCCGCGGGTCTGTCTCTTG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="4">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGCAGTTCGGCGGTCCCGCGGGTCTGTCTCTTG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="5">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>GGGGGAGCAGCGCTTTGGAGATCCCGAGGATCT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="5">
+       <offset>52</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGACGGAACAGACCCGGGGACTCCCACTTT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>166</offset>
+       <energy>0.1</energy>
+       <seq>GAAAGGGATCGCTTTACTTTTGTCAGGTGGAAG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>215</offset>
+       <energy>0.1</energy>
+       <seq>GTGAAGGAGCACTATACCGCGCCAGGACAGTGC</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>192</offset>
+       <energy>0.1</energy>
+       <seq>GTGGAAGAAGAGCGTCTAGTTTGGTGAAGGAGC</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="8">
+       <offset>168</offset>
+       <energy>0.1</energy>
+       <seq>TCTTTCGGCATAAGGCTGTTGTGCTTATAGTGG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="11">
+       <offset>102</offset>
+       <energy>0.1</energy>
+       <seq>CGCCCCAAACCGGTGGCGCGCAGCTAAGGCGCG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="11">
+       <offset>222</offset>
+       <energy>0.1</energy>
+       <seq>CTCGTGGAGCGCGGGATTTTCCTGGGTGCGGGG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="12">
+       <offset>19</offset>
+       <energy>0.1</energy>
+       <seq>CCTGAAGGGGACGGGGCGGCCCCAGTCGGAGGT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>749</offset>
+       <energy>0.1</energy>
+       <seq>AGAGTAATGCGTTTTCTGATGCATTATGGTTAT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>80</offset>
+       <energy>0.1</energy>
+       <seq>AGCCCGTCCACAGCTATTCTTGCTGTGGTCGGG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1457</offset>
+       <energy>0.1</energy>
+       <seq>ATAAAGCTGCAGTGTGAGCTGTACCCCTCGCGG</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1960</offset>
+       <energy>0.1</energy>
+       <seq>CATGCCCCTGTTGTGGCTGGAAAAGAAGTGTTC</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>730</offset>
+       <energy>0.1</energy>
+       <seq>CTAAGATGTGATTAGCCTGAGAGTAATGCGTTT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>93</offset>
+       <energy>0.1</energy>
+       <seq>CTATTCTTGCTGTGGTCGGGACTCGGCTCATCT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1246</offset>
+       <energy>0.1</energy>
+       <seq>GGTATTATTTAGGTTATATGGGGATTTGAGCCA</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1296</offset>
+       <energy>0.1</energy>
+       <seq>TAAATATGATGTTTGGTAGTTCGGAGCTATGGT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1745</offset>
+       <energy>0.1</energy>
+       <seq>TGTCCGTTATCAGTACTTGGGAAGAATCTGCTT</seq>
+       <sec>(((.........)))...(((.........)))</sec>
+    </match>
+  </motif>
+  <motif id="4">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.............))).............(((.......)))</sec>
+    <match id="0">
+       <offset>13</offset>
+       <energy>0.1</energy>
+       <seq>AGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGCAGCAGCC</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="5">
+       <offset>19</offset>
+       <energy>0.1</energy>
+       <seq>GATCCCGAGGATCTGTATCTTGCTTCAACAGTGTTTGGACGGAAC</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="7">
+       <offset>79</offset>
+       <energy>0.1</energy>
+       <seq>CGGTTGGTGGTCGCCTCTGACCAAGTGTCCTGCTGGAAGAGGCAG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>162</offset>
+       <energy>0.1</energy>
+       <seq>TTGGGGTCTTTCGGCATAAGGCTGTTGTGCTTATAGTGGTGCTAT</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>169</offset>
+       <energy>0.1</energy>
+       <seq>TTGGGGTCTTTCGGCACAAGGCTGCTGTGCTTATAGCCGTGCTAT</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>151</offset>
+       <energy>0.1</energy>
+       <seq>CTTTTGTTCTTTGCCAAAGTCGTCGTTGTAGTCTTTTTGCCCAAG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>245</offset>
+       <energy>0.1</energy>
+       <seq>GGGTGCGGGGACAGTGCTCCTCCTCCTCCTCCGCGCAGCACGCGC</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>210</offset>
+       <energy>0.1</energy>
+       <seq>TCGCGCGTTCTCCTCGTGGAGCGCGGGATTTTCCTGGGTGCGGGG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>267</offset>
+       <energy>0.1</energy>
+       <seq>CTTTTGTTCTTTGCCAAAGTCGTCGTTGTAGTCTTTTTGCCCAAG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1550</offset>
+       <energy>0.1</energy>
+       <seq>AGGTGAGTGCAGGGCCCCTGCTGCCTGCCAGGTGGGAGCAGCTCG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1444</offset>
+       <energy>0.1</energy>
+       <seq>CTTATGCCGCTCCATAAAGCTGCAGTGTGAGCTGTACCCCTCGCG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1526</offset>
+       <energy>0.1</energy>
+       <seq>GGTTTTGCCCTGTGGTGTCTGTGCAGGTGAGTGCAGGGCCCCTGC</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1571</offset>
+       <energy>0.1</energy>
+       <seq>TGCCTGCCAGGTGGGAGCAGCTCGTGTGGCTCTTAGGAACCTTGG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>558</offset>
+       <energy>0.1</energy>
+       <seq>TTAGCGGGAGTGAAGGTAGGTCCTCTGAAATCTTGTTTGCTTCAG</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>412</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGAATACATGTGGGAACACTAATGTTGCTGGTGTCTCCTGTT</seq>
+       <sec>(((.............))).............(((.......)))</sec>
+    </match>
+  </motif>
+  <motif id="5">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.............)))....(((.........)))</sec>
+    <match id="0">
+       <offset>13</offset>
+       <energy>0.1</energy>
+       <seq>AGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGC</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="3">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>GGGGGCAGTTCGGCGGTCCCGCGGGTCTGTCTCTTGCT</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="4">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>GGGGGCAGTTCGGCGGTCCCGCGGGTCTGTCTCTTGCT</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="5">
+       <offset>160</offset>
+       <energy>0.1</energy>
+       <seq>GGACCAGCCAGCCCCGTCTTCGCGGTTAGCTCCATACT</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="6">
+       <offset>36</offset>
+       <energy>0.1</energy>
+       <seq>CTGCTTCAACAGTGCTTGGACGGAACCCGGCGCTCGTT</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>209</offset>
+       <energy>0.1</energy>
+       <seq>AGTTTGGTGAAGGAGCACTATACCGCGCCAGGACAGTG</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="9">
+       <offset>135</offset>
+       <energy>0.1</energy>
+       <seq>GGGCAGCTTTGCTGTTCTTTGCCTTAGTTGTCCTTTGG</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="11">
+       <offset>218</offset>
+       <energy>0.1</energy>
+       <seq>TCTCCTCGTGGAGCGCGGGATTTTCCTGGGTGCGGGGA</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="12">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGGACGCCCGGGCGGCCCTGAAGGGGACGGGGCGGCCC</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>88</offset>
+       <energy>0.1</energy>
+       <seq>CACAGCTATTCTTGCTGTGGTCGGGACTCGGCTCATCT</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>230</offset>
+       <energy>0.1</energy>
+       <seq>CATCCCCACAGGCTCAGTGTGGTCTTGGTGGGACCGGG</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1122</offset>
+       <energy>0.1</energy>
+       <seq>CCATTGCACTCCAGCCTGGGCGACAGAGCAAGACTCTG</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1715</offset>
+       <energy>0.1</energy>
+       <seq>GAGTGAAAATACATTTTTCATTAAATACACTGTCCGTT</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1291</offset>
+       <energy>0.1</energy>
+       <seq>GGAAATAAATATGATGTTTGGTAGTTCGGAGCTATGGT</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1552</offset>
+       <energy>0.1</energy>
+       <seq>GTGAGTGCAGGGCCCCTGCTGCCTGCCAGGTGGGAGCA</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1672</offset>
+       <energy>0.1</energy>
+       <seq>GTTTGTTTGGGGATGAAGTGGGTTGGAGTCTGAGTCTG</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1228</offset>
+       <energy>0.1</energy>
+       <seq>TTAGTGTACCATTTCTTGGGTATTATTTAGGTTATATG</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>778</offset>
+       <energy>0.1</energy>
+       <seq>TTATGTCTAAACTTTCTGATTTATGACTGTCTAGCTTA</seq>
+       <sec>(((.............)))....(((.........)))</sec>
+    </match>
+  </motif>
+  <motif id="6">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((....................))).........(((....)))</sec>
+    <match id="0">
+       <offset>13</offset>
+       <energy>0.1</energy>
+       <seq>AGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGCAGCAGCC</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="3">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CGGCGGTCCCGCGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="3">
+       <offset>31</offset>
+       <energy>0.1</energy>
+       <seq>TCTTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCTCT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="4">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CGGCGGTCCCGCGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="4">
+       <offset>31</offset>
+       <energy>0.1</energy>
+       <seq>TCTTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCTCT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="5">
+       <offset>15</offset>
+       <energy>0.1</energy>
+       <seq>TGGAGATCCCGAGGATCTGTATCTTGCTTCAACAGTGTTTGGACG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="6">
+       <offset>47</offset>
+       <energy>0.1</energy>
+       <seq>GTGCTTGGACGGAACCCGGCGCTCGTTCCCCACCCCGGCCGGCCG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="7">
+       <offset>71</offset>
+       <energy>0.1</energy>
+       <seq>GGATTGGGCGGTTGGTGGTCGCCTCTGACCAAGTGTCCTGCTGGA</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="9">
+       <offset>93</offset>
+       <energy>0.1</energy>
+       <seq>TGTTAGCTAAGTTTGGAAAGAAGACATAAAGAAGACCCCGGTGGG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="10">
+       <offset>125</offset>
+       <energy>0.1</energy>
+       <seq>AAAAAGAAAATCCCTGGGCCCCTTTTCTTTTGTTCTTTGCCAAAG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="10">
+       <offset>133</offset>
+       <energy>0.1</energy>
+       <seq>AATCCCTGGGCCCCTTTTCTTTTGTTCTTTGCCAAAGTCGTCGTT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="11">
+       <offset>203</offset>
+       <energy>0.1</energy>
+       <seq>CCGACCGTCGCGCGTTCTCCTCGTGGAGCGCGGGATTTTCCTGGG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="12">
+       <offset>241</offset>
+       <energy>0.1</energy>
+       <seq>AAAAAGAAAATCCCTGGGCCCCTTTTCTTTTGTTCTTTGCCAAAG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="12">
+       <offset>249</offset>
+       <energy>0.1</energy>
+       <seq>AATCCCTGGGCCCCTTTTCTTTTGTTCTTTGCCAAAGTCGTCGTT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1756</offset>
+       <energy>0.1</energy>
+       <seq>AGTACTTGGGAAGAATCTGCTTGATTCCTTCAAACACTAGAAAGT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>2087</offset>
+       <energy>0.1</energy>
+       <seq>CAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTCCCTGT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1638</offset>
+       <energy>0.1</energy>
+       <seq>GTGCTCAGGAAGCCGATGAGATGTGTGTGAGTGGGTTTGTTTGGG</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1633</offset>
+       <energy>0.1</energy>
+       <seq>TCTGGGTGCTCAGGAAGCCGATGAGATGTGTGTGAGTGGGTTTGT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>395</offset>
+       <energy>0.1</energy>
+       <seq>TGTGAAAGCCCAGAGCGTTCAGAATACATGTGGGAACACTAATGT</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>2054</offset>
+       <energy>0.1</energy>
+       <seq>TTCCCTCTCGCAGTGTCTACTCGGGACACCAATCAGTGCTGGTGC</seq>
+       <sec>(((....................))).........(((....)))</sec>
+    </match>
+  </motif>
+  <motif id="7">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((...(((........)))...)))</sec>
+    <match id="0">
+       <offset>13</offset>
+       <energy>0.1</energy>
+       <seq>AGTGCAGGGCAACAGAACTTCGGGCT</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="1">
+       <offset>28</offset>
+       <energy>0.1</energy>
+       <seq>AGTGCAGGGCAACAGGACTTTGGGCT</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="3">
+       <offset>119</offset>
+       <energy>0.1</energy>
+       <seq>CTTCTCGGCCATCTCCTGCTTCTGGG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="4">
+       <offset>130</offset>
+       <energy>0.1</energy>
+       <seq>CTTCTCGGCCATCTCCTGCTTCTGGG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="7">
+       <offset>62</offset>
+       <energy>0.1</energy>
+       <seq>CATGGGCCGGGATTGGGCGGTTGGTG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="7">
+       <offset>71</offset>
+       <energy>0.1</energy>
+       <seq>GGATTGGGCGGTTGGTGGTCGCCTCT</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="7">
+       <offset>178</offset>
+       <energy>0.1</energy>
+       <seq>TTTACTTTTGTCAGGTGGAAGAAGAG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="8">
+       <offset>163</offset>
+       <energy>0.1</energy>
+       <seq>TGGGGTCTTTCGGCATAAGGCTGTTG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="9">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>AGGGTCTACTGCGGCCGGTGGACCCT</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="9">
+       <offset>181</offset>
+       <energy>0.1</energy>
+       <seq>GGCACAAGGCTGCTGTGCTTATAGCC</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="9">
+       <offset>170</offset>
+       <energy>0.1</energy>
+       <seq>TGGGGTCTTTCGGCACAAGGCTGCTG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="11">
+       <offset>222</offset>
+       <energy>0.1</energy>
+       <seq>CTCGTGGAGCGCGGGATTTTCCTGGG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="11">
+       <offset>245</offset>
+       <energy>0.1</energy>
+       <seq>GGGTGCGGGGACAGTGCTCCTCCTCC</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="12">
+       <offset>86</offset>
+       <energy>0.1</energy>
+       <seq>CTGGGCCCGGCCCACGGCGGCGGCGG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>570</offset>
+       <energy>0.1</energy>
+       <seq>AAGGTAGGTCCTCTGAAATCTTGTTT</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1605</offset>
+       <energy>0.1</energy>
+       <seq>AGGAACCTTGGCCTTCTAAGGCACCT</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>2087</offset>
+       <energy>0.1</energy>
+       <seq>CAGTGCTGGTGCCCCCGCTGGAGCTG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>2076</offset>
+       <energy>0.1</energy>
+       <seq>GGGACACCAATCAGTGCTGGTGCCCC</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1190</offset>
+       <energy>0.1</energy>
+       <seq>TAAAAATTCATTACCCTGAAATTTTG</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1484</offset>
+       <energy>0.1</energy>
+       <seq>TCGCGGCAGATCGCCATCTGCCTCGA</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>132</offset>
+       <energy>0.1</energy>
+       <seq>TGCCATAGGCTCTGTGACTTTTGGCA</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1713</offset>
+       <energy>0.1</energy>
+       <seq>TTGAGTGAAAATACATTTTTCATTAA</seq>
+       <sec>(((...(((........)))...)))</sec>
+    </match>
+  </motif>
+  <motif id="8">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((..(((.........)))...)))</sec>
+    <match id="0">
+       <offset>13</offset>
+       <energy>0.1</energy>
+       <seq>AGTGCAGGGCAACAGAACTTCGGGCT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="1">
+       <offset>28</offset>
+       <energy>0.1</energy>
+       <seq>AGTGCAGGGCAACAGGACTTTGGGCT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="3">
+       <offset>4</offset>
+       <energy>0.1</energy>
+       <seq>GCAGTTCGGCGGTCCCGCGGGTCTGT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="4">
+       <offset>4</offset>
+       <energy>0.1</energy>
+       <seq>GCAGTTCGGCGGTCCCGCGGGTCTGT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="7">
+       <offset>189</offset>
+       <energy>0.1</energy>
+       <seq>CAGGTGGAAGAAGAGCGTCTAGTTTG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="7">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>GCCTCACGACTTGCAGGCGTTCAGGC</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="7">
+       <offset>165</offset>
+       <energy>0.1</energy>
+       <seq>TGAAAGGGATCGCTTTACTTTTGTCA</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="7">
+       <offset>178</offset>
+       <energy>0.1</energy>
+       <seq>TTTACTTTTGTCAGGTGGAAGAAGAG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="8">
+       <offset>124</offset>
+       <energy>0.1</energy>
+       <seq>GTGACAGCTTTGCTGTTGTTGTTTGC</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="8">
+       <offset>163</offset>
+       <energy>0.1</energy>
+       <seq>TGGGGTCTTTCGGCATAAGGCTGTTG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="9">
+       <offset>181</offset>
+       <energy>0.1</energy>
+       <seq>GGCACAAGGCTGCTGTGCTTATAGCC</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="9">
+       <offset>170</offset>
+       <energy>0.1</energy>
+       <seq>TGGGGTCTTTCGGCACAAGGCTGCTG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="10">
+       <offset>19</offset>
+       <energy>0.1</energy>
+       <seq>GGGCGTCCGCTAGGCTCGGACGACCT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="11">
+       <offset>222</offset>
+       <energy>0.1</energy>
+       <seq>CTCGTGGAGCGCGGGATTTTCCTGGG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="12">
+       <offset>90</offset>
+       <energy>0.1</energy>
+       <seq>GCCCGGCCCACGGCGGCGGCGGCGGC</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="12">
+       <offset>135</offset>
+       <energy>0.1</energy>
+       <seq>GGGCGTCCGCTAGGCTCGGACGACCT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="12">
+       <offset>21</offset>
+       <energy>0.1</energy>
+       <seq>TGAAGGGGACGGGGCGGCCCCAGTCG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>427</offset>
+       <energy>0.1</energy>
+       <seq>GGAACACTAATGTTGCTGGTGTCTCC</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1246</offset>
+       <energy>0.1</energy>
+       <seq>GGTATTATTTAGGTTATATGGGGATT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1717</offset>
+       <energy>0.1</energy>
+       <seq>GTGAAAATACATTTTTCATTAAATAC</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>248</offset>
+       <energy>0.1</energy>
+       <seq>GTGGTCTTGGTGGGACCGGGTAGCGT</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1690</offset>
+       <energy>0.1</energy>
+       <seq>TGGGTTGGAGTCTGAGTCTGAAATTG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1632</offset>
+       <energy>0.1</energy>
+       <seq>TTCTGGGTGCTCAGGAAGCCGATGAG</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>848</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTGGGAGTCAATAGCTCAATTAA</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+    <match id="13">
+       <offset>1673</offset>
+       <energy>0.1</energy>
+       <seq>TTTGTTTGGGGATGAAGTGGGTTGGA</seq>
+       <sec>(((..(((.........)))...)))</sec>
+    </match>
+  </motif>
+  <motif id="9">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((......))).......................(((.......)))</sec>
+    <match id="0">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGCAGCAGCC</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>65</offset>
+       <energy>0.1</energy>
+       <seq>GGGGACTCTCTTCCAGCCTCCGATTTCCTCTCCGCTTGCAACCTCCGG</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="5">
+       <offset>4</offset>
+       <energy>0.1</energy>
+       <seq>GAGCAGCGCTTTGGAGATCCCGAGGATCTGTATCTTGCTTCAACAGTG</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="6">
+       <offset>17</offset>
+       <energy>0.1</energy>
+       <seq>CGAGAGTCGTCGGGGTTTCCTGCTTCAACAGTGCTTGGACGGAACCCG</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="7">
+       <offset>88</offset>
+       <energy>0.1</energy>
+       <seq>GTCGCCTCTGACCAAGTGTCCTGCTGGAAGAGGCAGCCAAGGAAAGGT</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>61</offset>
+       <energy>0.1</energy>
+       <seq>TTGGCTTTCCAACTTCAGCTACAGTGTTAGCTAAGTTTGGAAAGAAGA</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>29</offset>
+       <energy>0.1</energy>
+       <seq>ACTGCGGCCGGTGGACCCTCCAACCCGCTTCCATAAGGCTTTAGCTTT</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>76</offset>
+       <energy>0.1</energy>
+       <seq>TTGCCTTTCCAACTTCAGCTACAGTGTTAGCTAAGTTTGGAAAGAAGG</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>242</offset>
+       <energy>0.1</energy>
+       <seq>CCTGGGTGCGGGGACAGTGCTCCTCCTCCTCCTCCGCGCAGCACGCGC</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>192</offset>
+       <energy>0.1</energy>
+       <seq>TTGCCTTTCCAACTTCAGCTACAGTGTTAGCTAAGTTTGGAAAGAAGG</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>860</offset>
+       <energy>0.1</energy>
+       <seq>AATAGCTCAATTAAAATTTTTCAGGCGGGGCGTGGTGGCTCACGCCTG</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>118</offset>
+       <energy>0.1</energy>
+       <seq>GCTCATCTGGGCTTTGCCATAGGCTCTGTGACTTTTGGCAAATCCCTA</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1685</offset>
+       <energy>0.1</energy>
+       <seq>TGAAGTGGGTTGGAGTCTGAGTCTGAAATTGAGTGAAAATACATTTTT</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1547</offset>
+       <energy>0.1</energy>
+       <seq>TGCAGGTGAGTGCAGGGCCCCTGCTGCCTGCCAGGTGGGAGCAGCTCG</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1677</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGGGATGAAGTGGGTTGGAGTCTGAGTCTGAAATTGAGTGAAAAT</seq>
+       <sec>(((......))).......................(((.......)))</sec>
+    </match>
+  </motif>
+  <motif id="10">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((......)))..............(((.........)))</sec>
+    <match id="0">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGC</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="1">
+       <offset>8</offset>
+       <energy>0.1</energy>
+       <seq>ACCGTCTTTGGTTCGTCCTCAGTGCAGGGCAACAGGACTTT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="2">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>CGTGGATCTGTGTCTTGCTTCAACAGTGTTTGAACGGAACA</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="3">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="4">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="5">
+       <offset>44</offset>
+       <energy>0.1</energy>
+       <seq>CAACAGTGTTTGGACGGAACAGACCCGGGGACTCCCACTTT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>168</offset>
+       <energy>0.1</energy>
+       <seq>AAGGGATCGCTTTACTTTTGTCAGGTGGAAGAAGAGCGTCT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>86</offset>
+       <energy>0.1</energy>
+       <seq>TGGTCGCCTCTGACCAAGTGTCCTGCTGGAAGAGGCAGCCA</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="8">
+       <offset>157</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTTTGGGGTCTTTCGGCATAAGGCTGTTGTGCTTATAG</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="9">
+       <offset>164</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTTTGGGGTCTTTCGGCACAAGGCTGCTGTGCTTATAG</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="10">
+       <offset>4</offset>
+       <energy>0.1</energy>
+       <seq>GTCCGAGCTGGCTCAGGGCGTCCGCTAGGCTCGGACGACCT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="12">
+       <offset>11</offset>
+       <energy>0.1</energy>
+       <seq>CGGGCGGCCCTGAAGGGGACGGGGCGGCCCCAGTCGGAGGT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>860</offset>
+       <energy>0.1</energy>
+       <seq>AATAGCTCAATTAAAATTTTTCAGGCGGGGCGTGGTGGCTC</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1080</offset>
+       <energy>0.1</energy>
+       <seq>CTTGAACCCGGGAGGCAGAGGTTGCAGTGAGCCGAGATTGT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1719</offset>
+       <energy>0.1</energy>
+       <seq>GAAAATACATTTTTCATTAAATACACTGTCCGTTATCAGTA</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1149</offset>
+       <energy>0.1</energy>
+       <seq>GCAAGACTCTGCCTCAAAAAAAAAAAAAAAGAAAAAAATTT</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1119</offset>
+       <energy>0.1</energy>
+       <seq>GTGCCATTGCACTCCAGCCTGGGCGACAGAGCAAGACTCTG</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1669</offset>
+       <energy>0.1</energy>
+       <seq>TGGGTTTGTTTGGGGATGAAGTGGGTTGGAGTCTGAGTCTG</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>775</offset>
+       <energy>0.1</energy>
+       <seq>TGGTTATGTCTAAACTTTCTGATTTATGACTGTCTAGCTTA</seq>
+       <sec>(((......)))..............(((.........)))</sec>
+    </match>
+  </motif>
+  <motif id="11">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((......)))........(((.......)))</sec>
+    <match id="0">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGAACTTCGGGCTCAAG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="1">
+       <offset>25</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGGACTTTGGGCTCAGG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="2">
+       <offset>14</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGAACGGAACAGACCCG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>133</offset>
+       <energy>0.1</energy>
+       <seq>CCTGCTTCTGGGACCTGCCAGCACCGTTTTTGT</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>112</offset>
+       <energy>0.1</energy>
+       <seq>GGACCATCTTCTCGGCCATCTCCTGCTTCTGGG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGGAACAGATCCG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>144</offset>
+       <energy>0.1</energy>
+       <seq>CCTGCTTCTGGGACCTGCCAGCACCGTTTTTGT</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>123</offset>
+       <energy>0.1</energy>
+       <seq>GGACCATCTTCTCGGCCATCTCCTGCTTCTGGG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGGAACAGATCCG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="5">
+       <offset>38</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGGAACAGACCCG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="6">
+       <offset>17</offset>
+       <energy>0.1</energy>
+       <seq>CGAGAGTCGTCGGGGTTTCCTGCTTCAACAGTG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="6">
+       <offset>1</offset>
+       <energy>0.1</energy>
+       <seq>GGGAGACGTTCTTCGCCGAGAGTCGTCGGGGTT</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="6">
+       <offset>9</offset>
+       <energy>0.1</energy>
+       <seq>TTCTTCGCCGAGAGTCGTCGGGGTTTCCTGCTT</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>GAGAGCAGGCTCGGGGTCTCCTGCGGCCGGTGG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>157</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTTTGGGGTCTTTCGGCATAAGGCTGTTGT</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>139</offset>
+       <energy>0.1</energy>
+       <seq>AGCTTTGCTGTTCTTTGCCTTAGTTGTCCTTTG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>GAGAGCAGGCTTAGGGTCTACTGCGGCCGGTGG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>164</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTTTGGGGTCTTTCGGCACAAGGCTGCTGT</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1516</offset>
+       <energy>0.1</energy>
+       <seq>CTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTG</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1179</offset>
+       <energy>0.1</energy>
+       <seq>GAAAAAAATTTTAAAAATTCATTACCCTGAAAT</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1542</offset>
+       <energy>0.1</energy>
+       <seq>GTCTGTGCAGGTGAGTGCAGGGCCCCTGCTGCC</seq>
+       <sec>(((......)))........(((.......)))</sec>
+    </match>
+  </motif>
+  <motif id="12">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((......(((........))).)))</sec>
+    <match id="0">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGAACTTCGGG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="1">
+       <offset>25</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGGACTTTGGG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="5">
+       <offset>17</offset>
+       <energy>0.1</energy>
+       <seq>GAGATCCCGAGGATCTGTATCTTGCTT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>11</offset>
+       <energy>0.1</energy>
+       <seq>CTTGCAGGCGTTCAGGCGTGGATCAGG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>158</offset>
+       <energy>0.1</energy>
+       <seq>GAGCTATTGAAAGGGATCGCTTTACTT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>229</offset>
+       <energy>0.1</energy>
+       <seq>TACCGCGCCAGGACAGTGCTCCTGGTG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="8">
+       <offset>176</offset>
+       <energy>0.1</energy>
+       <seq>CATAAGGCTGTTGTGCTTATAGTGGTG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="9">
+       <offset>183</offset>
+       <energy>0.1</energy>
+       <seq>CACAAGGCTGCTGTGCTTATAGCCGTG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>156</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTTGCCAAAGTCGTCGTTGTAGT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="11">
+       <offset>208</offset>
+       <energy>0.1</energy>
+       <seq>CGTCGCGCGTTCTCCTCGTGGAGCGCG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="11">
+       <offset>298</offset>
+       <energy>0.1</energy>
+       <seq>GCTCCGGACAGCCGAGCAGGGCTCAGC</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>272</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTTGCCAAAGTCGTCGTTGTAGT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>683</offset>
+       <energy>0.1</energy>
+       <seq>AAGCAACAATTTTGCTTCTTAAGATTT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>371</offset>
+       <energy>0.1</energy>
+       <seq>ACAAATCATGTGTCGCCTCTTGCCTGT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>755</offset>
+       <energy>0.1</energy>
+       <seq>ATGCGTTTTCTGATGCATTATGGTTAT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>881</offset>
+       <energy>0.1</energy>
+       <seq>CAGGCGGGGCGTGGTGGCTCACGCCTG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1463</offset>
+       <energy>0.1</energy>
+       <seq>CTGCAGTGTGAGCTGTACCCCTCGCGG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>903</offset>
+       <energy>0.1</energy>
+       <seq>GCCTGTAATCCCAGCACTTCGGGAGGC</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>757</offset>
+       <energy>0.1</energy>
+       <seq>GCGTTTTCTGATGCATTATGGTTATGT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1291</offset>
+       <energy>0.1</energy>
+       <seq>GGAAATAAATATGATGTTTGGTAGTTC</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>567</offset>
+       <energy>0.1</energy>
+       <seq>GTGAAGGTAGGTCCTCTGAAATCTTGT</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>86</offset>
+       <energy>0.1</energy>
+       <seq>TCCACAGCTATTCTTGCTGTGGTCGGG</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>741</offset>
+       <energy>0.1</energy>
+       <seq>TTAGCCTGAGAGTAATGCGTTTTCTGA</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1970</offset>
+       <energy>0.1</energy>
+       <seq>TTGTGGCTGGAAAAGAAGTGTTCTTGA</seq>
+       <sec>(((......(((........))).)))</sec>
+    </match>
+  </motif>
+  <motif id="13">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.....(((.........))).)))</sec>
+    <match id="0">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGAACTTCGGG</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="1">
+       <offset>25</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGTGCAGGGCAACAGGACTTTGGG</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="3">
+       <offset>1</offset>
+       <energy>0.1</energy>
+       <seq>GGGGCAGTTCGGCGGTCCCGCGGGTCT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="4">
+       <offset>1</offset>
+       <energy>0.1</energy>
+       <seq>GGGGCAGTTCGGCGGTCCCGCGGGTCT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="5">
+       <offset>17</offset>
+       <energy>0.1</energy>
+       <seq>GAGATCCCGAGGATCTGTATCTTGCTT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>158</offset>
+       <energy>0.1</energy>
+       <seq>GAGCTATTGAAAGGGATCGCTTTACTT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>70</offset>
+       <energy>0.1</energy>
+       <seq>GGGATTGGGCGGTTGGTGGTCGCCTCT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>75</offset>
+       <energy>0.1</energy>
+       <seq>TGGGCGGTTGGTGGTCGCCTCTGACCA</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="9">
+       <offset>95</offset>
+       <energy>0.1</energy>
+       <seq>TTAGCTAAGTTTGGAAAGAAGACATAA</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>189</offset>
+       <energy>0.1</energy>
+       <seq>GCCCAAGGCTGTTGTGTTTTTAGAGGT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>186</offset>
+       <energy>0.1</energy>
+       <seq>TTTGCCCAAGGCTGTTGTGTTTTTAGA</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="11">
+       <offset>245</offset>
+       <energy>0.1</energy>
+       <seq>GGGTGCGGGGACAGTGCTCCTCCTCCT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>305</offset>
+       <energy>0.1</energy>
+       <seq>GCCCAAGGCTGTTGTGTTTTTAGAGGT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>302</offset>
+       <energy>0.1</energy>
+       <seq>TTTGCCCAAGGCTGTTGTGTTTTTAGA</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>676</offset>
+       <energy>0.1</energy>
+       <seq>AAGCACAAAGCAACAATTTTGCTTCTT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1299</offset>
+       <energy>0.1</energy>
+       <seq>ATATGATGTTTGGTAGTTCGGAGCTAT</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>72</offset>
+       <energy>0.1</energy>
+       <seq>GAACCCAGAGCCCGTCCACAGCTATTC</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1303</offset>
+       <energy>0.1</energy>
+       <seq>GATGTTTGGTAGTTCGGAGCTATGGTC</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>903</offset>
+       <energy>0.1</energy>
+       <seq>GCCTGTAATCCCAGCACTTCGGGAGGC</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1021</offset>
+       <energy>0.1</energy>
+       <seq>GGGCATGGTGGCAGGTGCCTCTAATCC</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>741</offset>
+       <energy>0.1</energy>
+       <seq>TTAGCCTGAGAGTAATGCGTTTTCTGA</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1315</offset>
+       <energy>0.1</energy>
+       <seq>TTCGGAGCTATGGTCTAGCCATGTGAA</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1970</offset>
+       <energy>0.1</energy>
+       <seq>TTGTGGCTGGAAAAGAAGTGTTCTTGA</seq>
+       <sec>(((.....(((.........))).)))</sec>
+    </match>
+  </motif>
+  <motif id="14">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((......................)))........(((.......)))</sec>
+    <match id="0">
+       <offset>9</offset>
+       <energy>0.1</energy>
+       <seq>CCTCAGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGCAGCAGCC</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>29</offset>
+       <energy>0.1</energy>
+       <seq>TCTCTTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>118</offset>
+       <energy>0.1</energy>
+       <seq>TCTTCTCGGCCATCTCCTGCTTCTGGGACCTGCCAGCACCGTTTTTGTG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>29</offset>
+       <energy>0.1</energy>
+       <seq>TCTCTTGCTTCAACAGTGTTTGGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>129</offset>
+       <energy>0.1</energy>
+       <seq>TCTTCTCGGCCATCTCCTGCTTCTGGGACCTGCCAGCACCGTTTTTGTG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="5">
+       <offset>17</offset>
+       <energy>0.1</energy>
+       <seq>GAGATCCCGAGGATCTGTATCTTGCTTCAACAGTGTTTGGACGGAACAG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="6">
+       <offset>116</offset>
+       <energy>0.1</energy>
+       <seq>CTTCACCGCACCCTCGGACTGCCCCAAGGCCCCCGCCGCCGCTCCAGCG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>141</offset>
+       <energy>0.1</energy>
+       <seq>GTTGTTTGCCTTAGTTGTCCTTTGGGGTCTTTCGGCATAAGGCTGTTGT</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>148</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTTGCCTTAGTTGTCCTTTGGGGTCTTTCGGCACAAGGCTGCTGT</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>35</offset>
+       <energy>0.1</energy>
+       <seq>CGGACGACCTGCTGAGCCTCCCAAACCGCTTCCATAAGGCTTTGCCTTT</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>151</offset>
+       <energy>0.1</energy>
+       <seq>CGGACGACCTGCTGAGCCTCCCAAACCGCTTCCATAAGGCTTTGCCTTT</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>20</offset>
+       <energy>0.1</energy>
+       <seq>CTGAAGGGGACGGGGCGGCCCCAGTCGGAGGTCGCAGGGAGCTCCGCCC</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1641</offset>
+       <energy>0.1</energy>
+       <seq>CTCAGGAAGCCGATGAGATGTGTGTGAGTGGGTTTGTTTGGGGATGAAG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>CTGTGTCCAGTTGCACCCAGGGAGGCAGTGGTGTCTGGCTCATGGGGCC</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>734</offset>
+       <energy>0.1</energy>
+       <seq>GATGTGATTAGCCTGAGAGTAATGCGTTTTCTGATGCATTATGGTTATG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>893</offset>
+       <energy>0.1</energy>
+       <seq>GGTGGCTCACGCCTGTAATCCCAGCACTTCGGGAGGCCGAGGCGGGTGG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1546</offset>
+       <energy>0.1</energy>
+       <seq>GTGCAGGTGAGTGCAGGGCCCCTGCTGCCTGCCAGGTGGGAGCAGCTCG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>777</offset>
+       <energy>0.1</energy>
+       <seq>GTTATGTCTAAACTTTCTGATTTATGACTGTCTAGCTTACAGGAACTGG</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>870</offset>
+       <energy>0.1</energy>
+       <seq>TTAAAATTTTTCAGGCGGGGCGTGGTGGCTCACGCCTGTAATCCCAGCA</seq>
+       <sec>(((......................)))........(((.......)))</sec>
+    </match>
+  </motif>
+  <motif id="15">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.......(((.........))))))</sec>
+    <match id="0">
+       <offset>9</offset>
+       <energy>0.1</energy>
+       <seq>CCTCAGTGCAGGGCAACAGAACTTCGGG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="1">
+       <offset>24</offset>
+       <energy>0.1</energy>
+       <seq>CCTCAGTGCAGGGCAACAGGACTTTGGG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="2">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>CGTGGATCTGTGTCTTGCTTCAACAGTG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="7">
+       <offset>64</offset>
+       <energy>0.1</energy>
+       <seq>TGGGCCGGGATTGGGCGGTTGGTGGTCG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="8">
+       <offset>141</offset>
+       <energy>0.1</energy>
+       <seq>GTTGTTTGCCTTAGTTGTCCTTTGGGGT</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="9">
+       <offset>180</offset>
+       <energy>0.1</energy>
+       <seq>CGGCACAAGGCTGCTGTGCTTATAGCCG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="9">
+       <offset>148</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTTGCCTTAGTTGTCCTTTGGGGT</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="9">
+       <offset>93</offset>
+       <energy>0.1</energy>
+       <seq>TGTTAGCTAAGTTTGGAAAGAAGACATA</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="10">
+       <offset>20</offset>
+       <energy>0.1</energy>
+       <seq>GGCGTCCGCTAGGCTCGGACGACCTGCT</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="11">
+       <offset>145</offset>
+       <energy>0.1</energy>
+       <seq>GCTCTGACCTGGGGACGCTGAGCCCGGC</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="12">
+       <offset>85</offset>
+       <energy>0.1</energy>
+       <seq>GCTGGGCCCGGCCCACGGCGGCGGCGGC</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="12">
+       <offset>136</offset>
+       <energy>0.1</energy>
+       <seq>GGCGTCCGCTAGGCTCGGACGACCTGCT</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>682</offset>
+       <energy>0.1</energy>
+       <seq>AAAGCAACAATTTTGCTTCTTAAGATTT</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1753</offset>
+       <energy>0.1</energy>
+       <seq>ATCAGTACTTGGGAAGAATCTGCTTGAT</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1551</offset>
+       <energy>0.1</energy>
+       <seq>GGTGAGTGCAGGGCCCCTGCTGCCTGCC</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1546</offset>
+       <energy>0.1</energy>
+       <seq>GTGCAGGTGAGTGCAGGGCCCCTGCTGC</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1241</offset>
+       <energy>0.1</energy>
+       <seq>TCTTGGGTATTATTTAGGTTATATGGGG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1571</offset>
+       <energy>0.1</energy>
+       <seq>TGCCTGCCAGGTGGGAGCAGCTCGTGTG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>870</offset>
+       <energy>0.1</energy>
+       <seq>TTAAAATTTTTCAGGCGGGGCGTGGTGG</seq>
+       <sec>(((.......(((.........))))))</sec>
+    </match>
+  </motif>
+  <motif id="16">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((......(((.........))).)))</sec>
+    <match id="0">
+       <offset>9</offset>
+       <energy>0.1</energy>
+       <seq>CCTCAGTGCAGGGCAACAGAACTTCGGG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="1">
+       <offset>24</offset>
+       <energy>0.1</energy>
+       <seq>CCTCAGTGCAGGGCAACAGGACTTTGGG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="2">
+       <offset>1</offset>
+       <energy>0.1</energy>
+       <seq>GTGGATCTGTGTCTTGCTTCAACAGTGT</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="3">
+       <offset>50</offset>
+       <energy>0.1</energy>
+       <seq>GGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="3">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>GGGGGCAGTTCGGCGGTCCCGCGGGTCT</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="4">
+       <offset>50</offset>
+       <energy>0.1</energy>
+       <seq>GGACGGAACAGATCCGGGGACTCTCTTC</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="4">
+       <offset>0</offset>
+       <energy>0.1</energy>
+       <seq>GGGGGCAGTTCGGCGGTCCCGCGGGTCT</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="8">
+       <offset>74</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="9">
+       <offset>125</offset>
+       <energy>0.1</energy>
+       <seq>AGACCCCGGTGGGCAGCTTTGCTGTTCT</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="9">
+       <offset>82</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>89</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>185</offset>
+       <energy>0.1</energy>
+       <seq>TTTTGCCCAAGGCTGTTGTGTTTTTAGA</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CCGGGCGGCCCTGAAGGGGACGGGGCGG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>205</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>301</offset>
+       <energy>0.1</energy>
+       <seq>TTTTGCCCAAGGCTGTTGTGTTTTTAGA</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>2108</offset>
+       <energy>0.1</energy>
+       <seq>AGCTGGAGAGCAACGTGTCCCTGTGGCT</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>234</offset>
+       <energy>0.1</energy>
+       <seq>CCCACAGGCTCAGTGTGGTCTTGGTGGG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>81</offset>
+       <energy>0.1</energy>
+       <seq>GCCCGTCCACAGCTATTCTTGCTGTGGT</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>241</offset>
+       <energy>0.1</energy>
+       <seq>GCTCAGTGTGGTCTTGGTGGGACCGGGT</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1624</offset>
+       <energy>0.1</energy>
+       <seq>GGCACCTTTTCTGGGTGCTCAGGAAGCC</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1736</offset>
+       <energy>0.1</energy>
+       <seq>TAAATACACTGTCCGTTATCAGTACTTG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>792</offset>
+       <energy>0.1</energy>
+       <seq>TCTGATTTATGACTGTCTAGCTTACAGG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1669</offset>
+       <energy>0.1</energy>
+       <seq>TGGGTTTGTTTGGGGATGAAGTGGGTTG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1287</offset>
+       <energy>0.1</energy>
+       <seq>TTAAGGAAATAAATATGATGTTTGGTAG</seq>
+       <sec>(((......(((.........))).)))</sec>
+    </match>
+  </motif>
+  <motif id="17">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.(((.............)))..)))</sec>
+    <match id="0">
+       <offset>9</offset>
+       <energy>0.1</energy>
+       <seq>CCTCAGTGCAGGGCAACAGAACTTCGGG</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="1">
+       <offset>24</offset>
+       <energy>0.1</energy>
+       <seq>CCTCAGTGCAGGGCAACAGGACTTTGGG</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="2">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGATCTGTGTCTTGCTTCAACAGTGTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="3">
+       <offset>61</offset>
+       <energy>0.1</energy>
+       <seq>ATCCGGGGACTCTCTTCCAGCCTCCGAT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="3">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGCAGTTCGGCGGTCCCGCGGGTCTGTC</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="3">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>GGGTCTGTCTCTTGCTTCAACAGTGTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="3">
+       <offset>29</offset>
+       <energy>0.1</energy>
+       <seq>TCTCTTGCTTCAACAGTGTTTGGACGGA</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="4">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GGCAGTTCGGCGGTCCCGCGGGTCTGTC</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="4">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>GGGTCTGTCTCTTGCTTCAACAGTGTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="4">
+       <offset>29</offset>
+       <energy>0.1</energy>
+       <seq>TCTCTTGCTTCAACAGTGTTTGGACGGA</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="5">
+       <offset>27</offset>
+       <energy>0.1</energy>
+       <seq>GGATCTGTATCTTGCTTCAACAGTGTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="6">
+       <offset>32</offset>
+       <energy>0.1</energy>
+       <seq>TTTCCTGCTTCAACAGTGCTTGGACGGA</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="7">
+       <offset>164</offset>
+       <energy>0.1</energy>
+       <seq>TTGAAAGGGATCGCTTTACTTTTGTCAG</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="8">
+       <offset>74</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="9">
+       <offset>82</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="10">
+       <offset>127</offset>
+       <energy>0.1</energy>
+       <seq>AAAGAAAATCCCTGGGCCCCTTTTCTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="10">
+       <offset>128</offset>
+       <energy>0.1</energy>
+       <seq>AAGAAAATCCCTGGGCCCCTTTTCTTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="10">
+       <offset>8</offset>
+       <energy>0.1</energy>
+       <seq>GAGCTGGCTCAGGGCGTCCGCTAGGCTC</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="10">
+       <offset>89</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="12">
+       <offset>243</offset>
+       <energy>0.1</energy>
+       <seq>AAAGAAAATCCCTGGGCCCCTTTTCTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="12">
+       <offset>244</offset>
+       <energy>0.1</energy>
+       <seq>AAGAAAATCCCTGGGCCCCTTTTCTTTT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="12">
+       <offset>124</offset>
+       <energy>0.1</energy>
+       <seq>GAGCTGGCTCAGGGCGTCCGCTAGGCTC</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="12">
+       <offset>205</offset>
+       <energy>0.1</energy>
+       <seq>TTCAGCTACAGTGTTAGCTAAGTTTGGA</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>1753</offset>
+       <energy>0.1</energy>
+       <seq>ATCAGTACTTGGGAAGAATCTGCTTGAT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>774</offset>
+       <energy>0.1</energy>
+       <seq>ATGGTTATGTCTAAACTTTCTGATTTAT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>234</offset>
+       <energy>0.1</energy>
+       <seq>CCCACAGGCTCAGTGTGGTCTTGGTGGG</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>1624</offset>
+       <energy>0.1</energy>
+       <seq>GGCACCTTTTCTGGGTGCTCAGGAAGCC</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>426</offset>
+       <energy>0.1</energy>
+       <seq>GGGAACACTAATGTTGCTGGTGTCTCCT</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>2035</offset>
+       <energy>0.1</energy>
+       <seq>GGGCGGAGCCTCACGAGCCTTCCCTCTC</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>1546</offset>
+       <energy>0.1</energy>
+       <seq>GTGCAGGTGAGTGCAGGGCCCCTGCTGC</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>1287</offset>
+       <energy>0.1</energy>
+       <seq>TTAAGGAAATAAATATGATGTTTGGTAG</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+    <match id="13">
+       <offset>707</offset>
+       <energy>0.1</energy>
+       <seq>TTTGTGTTAAATACCAATAAATGCTAAG</seq>
+       <sec>(((.(((.............)))..)))</sec>
+    </match>
+  </motif>
+  <motif id="18">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.....)))...................(((.........)))</sec>
+    <match id="0">
+       <offset>6</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGC</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="3">
+       <offset>15</offset>
+       <energy>0.1</energy>
+       <seq>GTCCCGCGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACGGAACA</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="4">
+       <offset>15</offset>
+       <energy>0.1</energy>
+       <seq>GTCCCGCGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACGGAACA</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="5">
+       <offset>20</offset>
+       <energy>0.1</energy>
+       <seq>ATCCCGAGGATCTGTATCTTGCTTCAACAGTGTTTGGACGGAACA</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="5">
+       <offset>40</offset>
+       <energy>0.1</energy>
+       <seq>GCTTCAACAGTGTTTGGACGGAACAGACCCGGGGACTCCCACTTT</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="6">
+       <offset>1</offset>
+       <energy>0.1</energy>
+       <seq>GGGAGACGTTCTTCGCCGAGAGTCGTCGGGGTTTCCTGCTTCAAC</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>202</offset>
+       <energy>0.1</energy>
+       <seq>AGCGTCTAGTTTGGTGAAGGAGCACTATACCGCGCCAGGACAGTG</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>169</offset>
+       <energy>0.1</energy>
+       <seq>AGGGATCGCTTTACTTTTGTCAGGTGGAAGAAGAGCGTCTAGTTT</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>80</offset>
+       <energy>0.1</energy>
+       <seq>GGTTGGTGGTCGCCTCTGACCAAGTGTCCTGCTGGAAGAGGCAGC</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>185</offset>
+       <energy>0.1</energy>
+       <seq>TTGTCAGGTGGAAGAAGAGCGTCTAGTTTGGTGAAGGAGCACTAT</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="8">
+       <offset>96</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGAAAGAAGACAAAAAGAAGACCCCGTGACAGCTTTGCTGTT</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="9">
+       <offset>104</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGAAAGAAGACATAAAGAAGACCCCGGTGGGCAGCTTTGCTG</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="11">
+       <offset>197</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTCCCGACCGTCGCGCGTTCTCCTCGTGGAGCGCGGGATTTT</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>856</offset>
+       <energy>0.1</energy>
+       <seq>AGTCAATAGCTCAATTAAAATTTTTCAGGCGGGGCGTGGTGGCTC</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>512</offset>
+       <energy>0.1</energy>
+       <seq>CGATGTCCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGAT</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1375</offset>
+       <energy>0.1</energy>
+       <seq>GAATTTCATTTCACTTTTTTTTTTTGAACTTTATTTTACTCTTAA</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>108</offset>
+       <energy>0.1</energy>
+       <seq>TCGGGACTCGGCTCATCTGGGCTTTGCCATAGGCTCTGTGACTTT</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>823</offset>
+       <energy>0.1</energy>
+       <seq>TGGTGGCTTTGAAGAATCTCTTACCTTGCTGGGAGTCAATAGCTC</seq>
+       <sec>(((.....)))...................(((.........)))</sec>
+    </match>
+  </motif>
+  <motif id="19">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.....)))...................(((............)))</sec>
+    <match id="0">
+       <offset>6</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGCAGC</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="3">
+       <offset>111</offset>
+       <energy>0.1</energy>
+       <seq>GGGACCATCTTCTCGGCCATCTCCTGCTTCTGGGACCTGCCAGCACCG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="4">
+       <offset>122</offset>
+       <energy>0.1</energy>
+       <seq>GGGACCATCTTCTCGGCCATCTCCTGCTTCTGGGACCTGCCAGCACCG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="4">
+       <offset>66</offset>
+       <energy>0.1</energy>
+       <seq>GGGACTCTCTTCCAGCCTCCGACCGCCCTCCGATTTCCTCTCCGCTTG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="5">
+       <offset>4</offset>
+       <energy>0.1</energy>
+       <seq>GAGCAGCGCTTTGGAGATCCCGAGGATCTGTATCTTGCTTCAACAGTG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="6">
+       <offset>1</offset>
+       <energy>0.1</energy>
+       <seq>GGGAGACGTTCTTCGCCGAGAGTCGTCGGGGTTTCCTGCTTCAACAGT</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="8">
+       <offset>86</offset>
+       <energy>0.1</energy>
+       <seq>GTTAGCTAAGTTTGGAAAGAAGACAAAAAGAAGACCCCGTGACAGCTT</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="8">
+       <offset>195</offset>
+       <energy>0.1</energy>
+       <seq>TAGTGGTGCTATCTTCGGTTCCTCTCACTCCTGTGAACAAGCTCCCGG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="8">
+       <offset>96</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGAAAGAAGACAAAAAGAAGACCCCGTGACAGCTTTGCTGTTGTT</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="10">
+       <offset>111</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGAAAGAAGGAAAAAAGAAAATCCCTGGGCCCCTTTTCTTTTGTT</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="11">
+       <offset>286</offset>
+       <energy>0.1</energy>
+       <seq>GCGCCACCCGCAGCTCCGGACAGCCGAGCAGGGCTCAGCCAGACACCC</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="12">
+       <offset>227</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGAAAGAAGGAAAAAAGAAAATCCCTGGGCCCCTTTTCTTTTGTT</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="13">
+       <offset>1179</offset>
+       <energy>0.1</energy>
+       <seq>GAAAAAAATTTTAAAAATTCATTACCCTGAAATTTTGTTTCAAAGATT</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="13">
+       <offset>1440</offset>
+       <energy>0.1</energy>
+       <seq>GCGCCTTATGCCGCTCCATAAAGCTGCAGTGTGAGCTGTACCCCTCGC</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="13">
+       <offset>1590</offset>
+       <energy>0.1</energy>
+       <seq>GCTCGTGTGGCTCTTAGGAACCTTGGCCTTCTAAGGCACCTTTTCTGG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="13">
+       <offset>1537</offset>
+       <energy>0.1</energy>
+       <seq>GTGGTGTCTGTGCAGGTGAGTGCAGGGCCCCTGCTGCCTGCCAGGTGG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="13">
+       <offset>351</offset>
+       <energy>0.1</energy>
+       <seq>TCTCTGCAGGACTCCCAAGGACAAATCATGTGTCGCCTCTTGCCTGTG</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="13">
+       <offset>2009</offset>
+       <energy>0.1</energy>
+       <seq>TGGAGTGCCCAGGGTGCTGGGTGGGCGGGCGGAGCCTCACGAGCCTTC</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+    <match id="13">
+       <offset>1422</offset>
+       <energy>0.1</energy>
+       <seq>TGTCGCACGCGGCCACAAGCGCCTTATGCCGCTCCATAAAGCTGCAGT</seq>
+       <sec>(((.....)))...................(((............)))</sec>
+    </match>
+  </motif>
+  <motif id="20">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.....))).............(((.......)))</sec>
+    <match id="0">
+       <offset>6</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGAACTTCGGGCTCAAG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="1">
+       <offset>21</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGGACTTTGGGCTCAGG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CGGCGGTCCCGCGGGTCTGTCTCTTGCTTCAACAGTG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="3">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>GGGTCTGTCTCTTGCTTCAACAGTGTTTGGACGGAAC</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CGGCGGTCCCGCGGGTCTGTCTCTTGCTTCAACAGTG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="4">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>GGGTCTGTCTCTTGCTTCAACAGTGTTTGGACGGAAC</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="5">
+       <offset>15</offset>
+       <energy>0.1</energy>
+       <seq>TGGAGATCCCGAGGATCTGTATCTTGCTTCAACAGTG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>128</offset>
+       <energy>0.1</energy>
+       <seq>CAGCTTTGCTGTTGTTGTTTGCCTTAGTTGTCCTTTG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>23</offset>
+       <energy>0.1</energy>
+       <seq>TGCGGCCGGTGGATCCTCCAACCCGCTCCCATAAGGC</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="8">
+       <offset>32</offset>
+       <energy>0.1</energy>
+       <seq>TGGATCCTCCAACCCGCTCCCATAAGGCTTTGGCTTT</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>31</offset>
+       <energy>0.1</energy>
+       <seq>TGCGGCCGGTGGACCCTCCAACCCGCTTCCATAAGGC</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="9">
+       <offset>40</offset>
+       <energy>0.1</energy>
+       <seq>TGGACCCTCCAACCCGCTTCCATAAGGCTTTAGCTTT</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>159</offset>
+       <energy>0.1</energy>
+       <seq>CTTTGCCAAAGTCGTCGTTGTAGTCTTTTTGCCCAAG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="10">
+       <offset>186</offset>
+       <energy>0.1</energy>
+       <seq>TTTGCCCAAGGCTGTTGTGTTTTTAGAGGTGCTATCT</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="11">
+       <offset>224</offset>
+       <energy>0.1</energy>
+       <seq>CGTGGAGCGCGGGATTTTCCTGGGTGCGGGGACAGTG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>92</offset>
+       <energy>0.1</energy>
+       <seq>CCGGCCCACGGCGGCGGCGGCGGCGGCGGAGAGAGCT</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>275</offset>
+       <energy>0.1</energy>
+       <seq>CTTTGCCAAAGTCGTCGTTGTAGTCTTTTTGCCCAAG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="12">
+       <offset>302</offset>
+       <energy>0.1</energy>
+       <seq>TTTGCCCAAGGCTGTTGTGTTTTTAGAGGTCCTATCT</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1230</offset>
+       <energy>0.1</energy>
+       <seq>AGTGTACCATTTCTTGGGTATTATTTAGGTTATATGG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>1653</offset>
+       <energy>0.1</energy>
+       <seq>ATGAGATGTGTGTGAGTGGGTTTGTTTGGGGATGAAG</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+    <match id="13">
+       <offset>707</offset>
+       <energy>0.1</energy>
+       <seq>TTTGTGTTAAATACCAATAAATGCTAAGATGTGATTA</seq>
+       <sec>(((.....))).............(((.......)))</sec>
+    </match>
+  </motif>
+  <motif id="21">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.....)))..(((.........)))</sec>
+    <match id="0">
+       <offset>6</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGAACTTC</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="1">
+       <offset>21</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGGACTTT</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="3">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CGGCGGTCCCGCGGGTCTGTCTCTTGCT</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="4">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>CGGCGGTCCCGCGGGTCTGTCTCTTGCT</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="6">
+       <offset>38</offset>
+       <energy>0.1</energy>
+       <seq>GCTTCAACAGTGCTTGGACGGAACCCGG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>202</offset>
+       <energy>0.1</energy>
+       <seq>AGCGTCTAGTTTGGTGAAGGAGCACTAT</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>97</offset>
+       <energy>0.1</energy>
+       <seq>GACCAAGTGTCCTGCTGGAAGAGGCAGC</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>170</offset>
+       <energy>0.1</energy>
+       <seq>GGGATCGCTTTACTTTTGTCAGGTGGAA</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="8">
+       <offset>128</offset>
+       <energy>0.1</energy>
+       <seq>CAGCTTTGCTGTTGTTGTTTGCCTTAGT</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="8">
+       <offset>155</offset>
+       <energy>0.1</energy>
+       <seq>TTGTCCTTTGGGGTCTTTCGGCATAAGG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="9">
+       <offset>162</offset>
+       <energy>0.1</energy>
+       <seq>TTGTCCTTTGGGGTCTTTCGGCACAAGG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="11">
+       <offset>286</offset>
+       <energy>0.1</energy>
+       <seq>GCGCCACCCGCAGCTCCGGACAGCCGAG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="11">
+       <offset>234</offset>
+       <energy>0.1</energy>
+       <seq>GGGATTTTCCTGGGTGCGGGGACAGTGC</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1298</offset>
+       <energy>0.1</energy>
+       <seq>AATATGATGTTTGGTAGTTCGGAGCTAT</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>371</offset>
+       <energy>0.1</energy>
+       <seq>ACAAATCATGTGTCGCCTCTTGCCTGTG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1230</offset>
+       <energy>0.1</energy>
+       <seq>AGTGTACCATTTCTTGGGTATTATTTAG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1238</offset>
+       <energy>0.1</energy>
+       <seq>ATTTCTTGGGTATTATTTAGGTTATATG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1283</offset>
+       <energy>0.1</energy>
+       <seq>TCTTTTAAGGAAATAAATATGATGTTTG</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1392</offset>
+       <energy>0.1</energy>
+       <seq>TTTTTTTTGAACTTTATTTTACTCTTAA</seq>
+       <sec>(((.....)))..(((.........)))</sec>
+    </match>
+  </motif>
+  <motif id="22">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.....))).(((.........)))</sec>
+    <match id="0">
+       <offset>6</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGAACTT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="1">
+       <offset>21</offset>
+       <energy>0.1</energy>
+       <seq>CGTCCTCAGTGCAGGGCAACAGGACTT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="2">
+       <offset>16</offset>
+       <energy>0.1</energy>
+       <seq>GCTTCAACAGTGTTTGAACGGAACAGA</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="3">
+       <offset>35</offset>
+       <energy>0.1</energy>
+       <seq>GCTTCAACAGTGTTTGGACGGAACAGA</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="3">
+       <offset>47</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGACGGAACAGATCCGGGGACTCT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="4">
+       <offset>35</offset>
+       <energy>0.1</energy>
+       <seq>GCTTCAACAGTGTTTGGACGGAACAGA</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="4">
+       <offset>47</offset>
+       <energy>0.1</energy>
+       <seq>TTTGGACGGAACAGATCCGGGGACTCT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="5">
+       <offset>40</offset>
+       <energy>0.1</energy>
+       <seq>GCTTCAACAGTGTTTGGACGGAACAGA</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="7">
+       <offset>182</offset>
+       <energy>0.1</energy>
+       <seq>CTTTTGTCAGGTGGAAGAAGAGCGTCT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="8">
+       <offset>174</offset>
+       <energy>0.1</energy>
+       <seq>GGCATAAGGCTGTTGTGCTTATAGTGG</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="10">
+       <offset>185</offset>
+       <energy>0.1</energy>
+       <seq>TTTTGCCCAAGGCTGTTGTGTTTTTAG</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="11">
+       <offset>116</offset>
+       <energy>0.1</energy>
+       <seq>GGCGCGCAGCTAAGGCGCGGGGATCCT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="12">
+       <offset>301</offset>
+       <energy>0.1</energy>
+       <seq>TTTTGCCCAAGGCTGTTGTGTTTTTAG</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1094</offset>
+       <energy>0.1</energy>
+       <seq>GCAGAGGTTGCAGTGAGCCGAGATTGT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1245</offset>
+       <energy>0.1</energy>
+       <seq>GGGTATTATTTAGGTTATATGGGGATT</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+    <match id="13">
+       <offset>1325</offset>
+       <energy>0.1</energy>
+       <seq>TGGTCTAGCCATGTGAACAGCGGACAC</seq>
+       <sec>(((.....))).(((.........)))</sec>
+    </match>
+  </motif>
+  <motif id="23">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.........................)))............(((....)))</sec>
+    <match id="0">
+       <offset>5</offset>
+       <energy>0.1</energy>
+       <seq>TCGTCCTCAGTGCAGGGCAACAGAACTTCGGGCTCAAGAGGGTGGCAGCAGCC</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="2">
+       <offset>78</offset>
+       <energy>0.1</energy>
+       <seq>TTTACAAGTCTCTCCAGTCGCAGCCTCCGGGACCATCTCCTCGCTGCCTTCAG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="3">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>GGGCAGTTCGGCGGTCCCGCGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="4">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>GGGCAGTTCGGCGGTCCCGCGGGTCTGTCTCTTGCTTCAACAGTGTTTGGACG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="5">
+       <offset>101</offset>
+       <energy>0.1</energy>
+       <seq>CTTACAAGTCTCTCCAGTCGCAGCCTCCGGGACCATCTCCTTGCCGCCTTCGG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="6">
+       <offset>21</offset>
+       <energy>0.1</energy>
+       <seq>AGTCGTCGGGGTTTCCTGCTTCAACAGTGCTTGGACGGAACCCGGCGCTCGTT</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="9">
+       <offset>122</offset>
+       <energy>0.1</energy>
+       <seq>AGAAGACCCCGGTGGGCAGCTTTGCTGTTCTTTGCCTTAGTTGTCCTTTGGGG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="10">
+       <offset>125</offset>
+       <energy>0.1</energy>
+       <seq>AAAAAGAAAATCCCTGGGCCCCTTTTCTTTTGTTCTTTGCCAAAGTCGTCGTT</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="11">
+       <offset>200</offset>
+       <energy>0.1</energy>
+       <seq>CTCCCGACCGTCGCGCGTTCTCCTCGTGGAGCGCGGGATTTTCCTGGGTGCGG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="12">
+       <offset>241</offset>
+       <energy>0.1</energy>
+       <seq>AAAAAGAAAATCCCTGGGCCCCTTTTCTTTTGTTCTTTGCCAAAGTCGTCGTT</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="12">
+       <offset>43</offset>
+       <energy>0.1</energy>
+       <seq>GTCGGAGGTCGCAGGGAGCTCCGCCCCCGACTCGGTATAAGAGCTGGGCCCGG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1497</offset>
+       <energy>0.1</energy>
+       <seq>CCATCTGCCTCGACCCCTACTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGC</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1038</offset>
+       <energy>0.1</energy>
+       <seq>CCTCTAATCCCAGATACTCAGGAGGCTGAGGCAGGAGAATTGCTTGAACCCGG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1444</offset>
+       <energy>0.1</energy>
+       <seq>CTTATGCCGCTCCATAAAGCTGCAGTGTGAGCTGTACCCCTCGCGGCAGATCG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1489</offset>
+       <energy>0.1</energy>
+       <seq>GCAGATCGCCATCTGCCTCGACCCCTACTGTGGCCTTGGTTTTGCCCTGTGGT</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1942</offset>
+       <energy>0.1</energy>
+       <seq>TGGCGTCAGAACAGAAATCATGCCCCTGTTGTGGCTGGAAAAGAAGTGTTCTT</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>381</offset>
+       <energy>0.1</energy>
+       <seq>TGTCGCCTCTTGCCTGTGAAAGCCCAGAGCGTTCAGAATACATGTGGGAACAC</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1618</offset>
+       <energy>0.1</energy>
+       <seq>TTCTAAGGCACCTTTTCTGGGTGCTCAGGAAGCCGATGAGATGTGTGTGAGTG</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+    <match id="13">
+       <offset>1674</offset>
+       <energy>0.1</energy>
+       <seq>TTGTTTGGGGATGAAGTGGGTTGGAGTCTGAGTCTGAAATTGAGTGAAAATAC</seq>
+       <sec>(((.........................)))............(((....)))</sec>
+    </match>
+  </motif>
+  <motif id="24">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((..........(((.........))))))</sec>
+    <match id="0">
+       <offset>5</offset>
+       <energy>0.1</energy>
+       <seq>TCGTCCTCAGTGCAGGGCAACAGAACTTCGG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="1">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>GTACTCACCGTCTTTGGTTCGTCCTCAGTGC</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="1">
+       <offset>20</offset>
+       <energy>0.1</energy>
+       <seq>TCGTCCTCAGTGCAGGGCAACAGGACTTTGG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="3">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGACGGAACAGATCCGGG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="4">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGACGGAACAGATCCGGG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="7">
+       <offset>181</offset>
+       <energy>0.1</energy>
+       <seq>ACTTTTGTCAGGTGGAAGAAGAGCGTCTAGT</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="7">
+       <offset>220</offset>
+       <energy>0.1</energy>
+       <seq>GGAGCACTATACCGCGCCAGGACAGTGCTCC</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="7">
+       <offset>65</offset>
+       <energy>0.1</energy>
+       <seq>GGGCCGGGATTGGGCGGTTGGTGGTCGCCTC</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="8">
+       <offset>138</offset>
+       <energy>0.1</energy>
+       <seq>GTTGTTGTTTGCCTTAGTTGTCCTTTGGGGT</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="9">
+       <offset>145</offset>
+       <energy>0.1</energy>
+       <seq>GCTGTTCTTTGCCTTAGTTGTCCTTTGGGGT</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="10">
+       <offset>184</offset>
+       <energy>0.1</energy>
+       <seq>TTTTTGCCCAAGGCTGTTGTGTTTTTAGAGG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="11">
+       <offset>200</offset>
+       <energy>0.1</energy>
+       <seq>CTCCCGACCGTCGCGCGTTCTCCTCGTGGAG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="11">
+       <offset>234</offset>
+       <energy>0.1</energy>
+       <seq>GGGATTTTCCTGGGTGCGGGGACAGTGCTCC</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="12">
+       <offset>43</offset>
+       <energy>0.1</energy>
+       <seq>GTCGGAGGTCGCAGGGAGCTCCGCCCCCGAC</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="12">
+       <offset>300</offset>
+       <energy>0.1</energy>
+       <seq>TTTTTGCCCAAGGCTGTTGTGTTTTTAGAGG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1230</offset>
+       <energy>0.1</energy>
+       <seq>AGTGTACCATTTCTTGGGTATTATTTAGGTT</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1444</offset>
+       <energy>0.1</energy>
+       <seq>CTTATGCCGCTCCATAAAGCTGCAGTGTGAG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>98</offset>
+       <energy>0.1</energy>
+       <seq>CTTGCTGTGGTCGGGACTCGGCTCATCTGGG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>828</offset>
+       <energy>0.1</energy>
+       <seq>GCTTTGAAGAATCTCTTACCTTGCTGGGAGT</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1093</offset>
+       <energy>0.1</energy>
+       <seq>GGCAGAGGTTGCAGTGAGCCGAGATTGTGCC</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1562</offset>
+       <energy>0.1</energy>
+       <seq>GGCCCCTGCTGCCTGCCAGGTGGGAGCAGCT</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1750</offset>
+       <energy>0.1</energy>
+       <seq>GTTATCAGTACTTGGGAAGAATCTGCTTGAT</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>1568</offset>
+       <energy>0.1</energy>
+       <seq>TGCTGCCTGCCAGGTGGGAGCAGCTCGTGTG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>906</offset>
+       <energy>0.1</energy>
+       <seq>TGTAATCCCAGCACTTCGGGAGGCCGAGGCG</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+    <match id="13">
+       <offset>791</offset>
+       <energy>0.1</energy>
+       <seq>TTCTGATTTATGACTGTCTAGCTTACAGGAA</seq>
+       <sec>(((..........(((.........))))))</sec>
+    </match>
+  </motif>
+  <motif id="25">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.....(((.............))).)))</sec>
+    <match id="0">
+       <offset>5</offset>
+       <energy>0.1</energy>
+       <seq>TCGTCCTCAGTGCAGGGCAACAGAACTTCGG</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="1">
+       <offset>20</offset>
+       <energy>0.1</energy>
+       <seq>TCGTCCTCAGTGCAGGGCAACAGGACTTTGG</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="3">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>GGGCAGTTCGGCGGTCCCGCGGGTCTGTCTC</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="4">
+       <offset>2</offset>
+       <energy>0.1</energy>
+       <seq>GGGCAGTTCGGCGGTCCCGCGGGTCTGTCTC</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="6">
+       <offset>4</offset>
+       <energy>0.1</energy>
+       <seq>AGACGTTCTTCGCCGAGAGTCGTCGGGGTTT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>175</offset>
+       <energy>0.1</energy>
+       <seq>CGCTTTACTTTTGTCAGGTGGAAGAAGAGCG</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="9">
+       <offset>124</offset>
+       <energy>0.1</energy>
+       <seq>AAGACCCCGGTGGGCAGCTTTGCTGTTCTTT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>124</offset>
+       <energy>0.1</energy>
+       <seq>AAAAAAGAAAATCCCTGGGCCCCTTTTCTTT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>168</offset>
+       <energy>0.1</energy>
+       <seq>AGTCGTCGTTGTAGTCTTTTTGCCCAAGGCT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="11">
+       <offset>132</offset>
+       <energy>0.1</energy>
+       <seq>GCGGGGATCCTGAGCTCTGACCTGGGGACGC</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>240</offset>
+       <energy>0.1</energy>
+       <seq>AAAAAAGAAAATCCCTGGGCCCCTTTTCTTT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>284</offset>
+       <energy>0.1</energy>
+       <seq>AGTCGTCGTTGTAGTCTTTTTGCCCAAGGCT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1256</offset>
+       <energy>0.1</energy>
+       <seq>AGGTTATATGGGGATTTGAGCCAACCGTCTT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>2064</offset>
+       <energy>0.1</energy>
+       <seq>CAGTGTCTACTCGGGACACCAATCAGTGCTG</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1616</offset>
+       <energy>0.1</energy>
+       <seq>CCTTCTAAGGCACCTTTTCTGGGTGCTCAGG</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>98</offset>
+       <energy>0.1</energy>
+       <seq>CTTGCTGTGGTCGGGACTCGGCTCATCTGGG</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1703</offset>
+       <energy>0.1</energy>
+       <seq>GAGTCTGAAATTGAGTGAAAATACATTTTTC</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>2031</offset>
+       <energy>0.1</energy>
+       <seq>GGGCGGGCGGAGCCTCACGAGCCTTCCCTCT</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>785</offset>
+       <energy>0.1</energy>
+       <seq>TAAACTTTCTGATTTATGACTGTCTAGCTTA</seq>
+       <sec>(((.....(((.............))).)))</sec>
+    </match>
+  </motif>
+  <motif id="26">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((....(((......))).)))</sec>
+    <match id="0">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GTTCGTCCTCAGTGCAGGGCAAC</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="1">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>GTTCGTCCTCAGTGCAGGGCAAC</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="6">
+       <offset>20</offset>
+       <energy>0.1</energy>
+       <seq>GAGTCGTCGGGGTTTCCTGCTTC</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>158</offset>
+       <energy>0.1</energy>
+       <seq>GAGCTATTGAAAGGGATCGCTTT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="7">
+       <offset>67</offset>
+       <energy>0.1</energy>
+       <seq>GCCGGGATTGGGCGGTTGGTGGT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="8">
+       <offset>10</offset>
+       <energy>0.1</energy>
+       <seq>GCTCGGGGTCTCCTGCGGCCGGT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="8">
+       <offset>163</offset>
+       <energy>0.1</energy>
+       <seq>TGGGGTCTTTCGGCATAAGGCTG</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="9">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>GCTTAGGGTCTACTGCGGCCGGT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="9">
+       <offset>170</offset>
+       <energy>0.1</energy>
+       <seq>TGGGGTCTTTCGGCACAAGGCTG</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="10">
+       <offset>178</offset>
+       <energy>0.1</energy>
+       <seq>GTAGTCTTTTTGCCCAAGGCTGT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="11">
+       <offset>245</offset>
+       <energy>0.1</energy>
+       <seq>GGGTGCGGGGACAGTGCTCCTCC</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="11">
+       <offset>154</offset>
+       <energy>0.1</energy>
+       <seq>TGGGGACGCTGAGCCCGGCGCTG</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="12">
+       <offset>294</offset>
+       <energy>0.1</energy>
+       <seq>GTAGTCTTTTTGCCCAAGGCTGT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1710</offset>
+       <energy>0.1</energy>
+       <seq>AAATTGAGTGAAAATACATTTTT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>751</offset>
+       <energy>0.1</energy>
+       <seq>AGTAATGCGTTTTCTGATGCATT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1335</offset>
+       <energy>0.1</energy>
+       <seq>ATGTGAACAGCGGACACTGCCAT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1652</offset>
+       <energy>0.1</energy>
+       <seq>GATGAGATGTGTGTGAGTGGGTT</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+    <match id="13">
+       <offset>1309</offset>
+       <energy>0.1</energy>
+       <seq>TGGTAGTTCGGAGCTATGGTCTA</seq>
+       <sec>(((....(((......))).)))</sec>
+    </match>
+  </motif>
+  <motif id="27">
+    <seq>NNNNNNCNNNNNNNNNNGNNNNN</seq>
+    <sec>(((.(((((......))))))))</sec>
+    <match id="0">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GTTCGTCCTCAGTGCAGGGCAAC</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="1">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>GTTCGTCCTCAGTGCAGGGCAAC</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="2">
+       <offset>145</offset>
+       <energy>0.1</energy>
+       <seq>CTGCACCGTCTCTTCGCGGTTAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="2">
+       <offset>14</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGAACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="3">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="4">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="5">
+       <offset>38</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="6">
+       <offset>36</offset>
+       <energy>0.1</energy>
+       <seq>CTGCTTCAACAGTGCTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="8">
+       <offset>73</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="9">
+       <offset>81</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="10">
+       <offset>88</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="12">
+       <offset>204</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+  </motif>
+  <motif id="28">
+    <seq>NNNNNNNNNNNNNNNNNNNNNNN</seq>
+    <sec>(((.(((((......))))))))</sec>
+    <match id="0">
+       <offset>3</offset>
+       <energy>0.1</energy>
+       <seq>GTTCGTCCTCAGTGCAGGGCAAC</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="1">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>GTTCGTCCTCAGTGCAGGGCAAC</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="2">
+       <offset>145</offset>
+       <energy>0.1</energy>
+       <seq>CTGCACCGTCTCTTCGCGGTTAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="2">
+       <offset>14</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGAACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="3">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="4">
+       <offset>33</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="5">
+       <offset>38</offset>
+       <energy>0.1</energy>
+       <seq>TTGCTTCAACAGTGTTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="6">
+       <offset>36</offset>
+       <energy>0.1</energy>
+       <seq>CTGCTTCAACAGTGCTTGGACGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="8">
+       <offset>73</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="9">
+       <offset>81</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="10">
+       <offset>88</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="12">
+       <offset>204</offset>
+       <energy>0.1</energy>
+       <seq>CTTCAGCTACAGTGTTAGCTAAG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="13">
+       <offset>235</offset>
+       <energy>0.1</energy>
+       <seq>CCACAGGCTCAGTGTGGTCTTGG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+    <match id="13">
+       <offset>885</offset>
+       <energy>0.1</energy>
+       <seq>CGGGGCGTGGTGGCTCACGCCTG</seq>
+       <sec>(((.(((((......))))))))</sec>
+    </match>
+  </motif>
+  <motif id="29">
+    <seq>NNCNNNNNNNNNNGNN</seq>
+    <sec>(((((......)))))</sec>
+    <match id="0">
+       <offset>7</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTCAGTGCAGGGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="1">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTCAGTGCAGGGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="2">
+       <offset>149</offset>
+       <energy>0.1</energy>
+       <seq>ACCGTCTCTTCGCGGT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="2">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGAA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="3">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="4">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="5">
+       <offset>42</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="6">
+       <offset>40</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGCTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="7">
+       <offset>263</offset>
+       <energy>0.1</energy>
+       <seq>TTCTGTACTCTCGGAG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="8">
+       <offset>77</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="9">
+       <offset>85</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="10">
+       <offset>92</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="11">
+       <offset>240</offset>
+       <energy>0.1</energy>
+       <seq>TTCCTGGGTGCGGGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="12">
+       <offset>208</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>2015</offset>
+       <energy>0.1</energy>
+       <seq>GCCCAGGGTGCTGGGT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>127</offset>
+       <energy>0.1</energy>
+       <seq>GGCTTTGCCATAGGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1464</offset>
+       <energy>0.1</energy>
+       <seq>TGCAGTGTGAGCTGTA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>756</offset>
+       <energy>0.1</energy>
+       <seq>TGCGTTTTCTGATGCA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1632</offset>
+       <energy>0.1</energy>
+       <seq>TTCTGGGTGCTCAGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1990</offset>
+       <energy>0.1</energy>
+       <seq>TTCTTGAGGAAGGGAA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+  </motif>
+  <motif id="30">
+    <seq>NTNNNNNNNNNNNNGN</seq>
+    <sec>(((((......)))))</sec>
+    <match id="0">
+       <offset>7</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTCAGTGCAGGGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="1">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTCAGTGCAGGGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="3">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="4">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="5">
+       <offset>42</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="6">
+       <offset>8</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTCGCCGAGAGT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="6">
+       <offset>40</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGCTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="8">
+       <offset>188</offset>
+       <energy>0.1</energy>
+       <seq>GTGCTTATAGTGGTGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="9">
+       <offset>27</offset>
+       <energy>0.1</energy>
+       <seq>CTACTGCGGCCGGTGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="10">
+       <offset>202</offset>
+       <energy>0.1</energy>
+       <seq>GTGTTTTTAGAGGTGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="11">
+       <offset>216</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTCCTCGTGGAGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="11">
+       <offset>240</offset>
+       <energy>0.1</energy>
+       <seq>TTCCTGGGTGCGGGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>2092</offset>
+       <energy>0.1</energy>
+       <seq>CTGGTGCCCCCGCTGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>919</offset>
+       <energy>0.1</energy>
+       <seq>CTTCGGGAGGCCGAGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1632</offset>
+       <energy>0.1</energy>
+       <seq>TTCTGGGTGCTCAGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+  </motif>
+  <motif id="31">
+    <seq>NNNNNNNNNNNNNNNN</seq>
+    <sec>(((((......)))))</sec>
+    <match id="0">
+       <offset>7</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTCAGTGCAGGGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="1">
+       <offset>22</offset>
+       <energy>0.1</energy>
+       <seq>GTCCTCAGTGCAGGGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="2">
+       <offset>149</offset>
+       <energy>0.1</energy>
+       <seq>ACCGTCTCTTCGCGGT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="2">
+       <offset>18</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGAA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="3">
+       <offset>110</offset>
+       <energy>0.1</energy>
+       <seq>CGGGACCATCTTCTCG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="3">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="4">
+       <offset>121</offset>
+       <energy>0.1</energy>
+       <seq>CGGGACCATCTTCTCG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="4">
+       <offset>37</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="5">
+       <offset>42</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGTTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="6">
+       <offset>8</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTTCGCCGAGAGT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="6">
+       <offset>40</offset>
+       <energy>0.1</energy>
+       <seq>TTCAACAGTGCTTGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="7">
+       <offset>237</offset>
+       <energy>0.1</energy>
+       <seq>CAGGACAGTGCTCCTG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="7">
+       <offset>108</offset>
+       <energy>0.1</energy>
+       <seq>CTGCTGGAAGAGGCAG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="7">
+       <offset>86</offset>
+       <energy>0.1</energy>
+       <seq>TGGTCGCCTCTGACCA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="7">
+       <offset>213</offset>
+       <energy>0.1</energy>
+       <seq>TGGTGAAGGAGCACTA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="7">
+       <offset>263</offset>
+       <energy>0.1</energy>
+       <seq>TTCTGTACTCTCGGAG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="8">
+       <offset>127</offset>
+       <energy>0.1</energy>
+       <seq>ACAGCTTTGCTGTTGT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="8">
+       <offset>77</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="8">
+       <offset>173</offset>
+       <energy>0.1</energy>
+       <seq>CGGCATAAGGCTGTTG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="8">
+       <offset>188</offset>
+       <energy>0.1</energy>
+       <seq>GTGCTTATAGTGGTGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="8">
+       <offset>184</offset>
+       <energy>0.1</energy>
+       <seq>TGTTGTGCTTATAGTG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="9">
+       <offset>85</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="9">
+       <offset>180</offset>
+       <energy>0.1</energy>
+       <seq>CGGCACAAGGCTGCTG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="9">
+       <offset>27</offset>
+       <energy>0.1</energy>
+       <seq>CTACTGCGGCCGGTGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="9">
+       <offset>132</offset>
+       <energy>0.1</energy>
+       <seq>GGTGGGCAGCTTTGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="10">
+       <offset>193</offset>
+       <energy>0.1</energy>
+       <seq>AAGGCTGTTGTGTTTT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="10">
+       <offset>92</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="10">
+       <offset>202</offset>
+       <energy>0.1</energy>
+       <seq>GTGTTTTTAGAGGTGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="11">
+       <offset>251</offset>
+       <energy>0.1</energy>
+       <seq>GGGGACAGTGCTCCTC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="11">
+       <offset>216</offset>
+       <energy>0.1</energy>
+       <seq>GTTCTCCTCGTGGAGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="11">
+       <offset>240</offset>
+       <energy>0.1</energy>
+       <seq>TTCCTGGGTGCGGGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="12">
+       <offset>309</offset>
+       <energy>0.1</energy>
+       <seq>AAGGCTGTTGTGTTTT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="12">
+       <offset>208</offset>
+       <energy>0.1</energy>
+       <seq>AGCTACAGTGTTAGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="12">
+       <offset>74</offset>
+       <energy>0.1</energy>
+       <seq>TCGGTATAAGAGCTGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>239</offset>
+       <energy>0.1</energy>
+       <seq>AGGCTCAGTGTGGTCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1407</offset>
+       <energy>0.1</energy>
+       <seq>ATTTTACTCTTAAGAT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1210</offset>
+       <energy>0.1</energy>
+       <seq>ATTTTGTTTCAAAGAT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>681</offset>
+       <energy>0.1</energy>
+       <seq>CAAAGCAACAATTTTG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1610</offset>
+       <energy>0.1</energy>
+       <seq>CCTTGGCCTTCTAAGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>2092</offset>
+       <energy>0.1</energy>
+       <seq>CTGGTGCCCCCGCTGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>919</offset>
+       <energy>0.1</energy>
+       <seq>CTTCGGGAGGCCGAGG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1715</offset>
+       <energy>0.1</energy>
+       <seq>GAGTGAAAATACATTT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1489</offset>
+       <energy>0.1</energy>
+       <seq>GCAGATCGCCATCTGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>2015</offset>
+       <energy>0.1</energy>
+       <seq>GCCCAGGGTGCTGGGT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>889</offset>
+       <energy>0.1</energy>
+       <seq>GCGTGGTGGCTCACGC</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>127</offset>
+       <energy>0.1</energy>
+       <seq>GGCTTTGCCATAGGCT</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>841</offset>
+       <energy>0.1</energy>
+       <seq>TCTTACCTTGCTGGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1665</offset>
+       <energy>0.1</energy>
+       <seq>TGAGTGGGTTTGTTTG</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1464</offset>
+       <energy>0.1</energy>
+       <seq>TGCAGTGTGAGCTGTA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>756</offset>
+       <energy>0.1</energy>
+       <seq>TGCGTTTTCTGATGCA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1545</offset>
+       <energy>0.1</energy>
+       <seq>TGTGCAGGTGAGTGCA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1445</offset>
+       <energy>0.1</energy>
+       <seq>TTATGCCGCTCCATAA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1632</offset>
+       <energy>0.1</energy>
+       <seq>TTCTGGGTGCTCAGGA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1990</offset>
+       <energy>0.1</energy>
+       <seq>TTCTTGAGGAAGGGAA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+    <match id="13">
+       <offset>1673</offset>
+       <energy>0.1</energy>
+       <seq>TTTGTTTGGGGATGAA</seq>
+       <sec>(((((......)))))</sec>
+    </match>
+  </motif>
+  <params>
+    <param name="seed">0</param>
+    <param name="stem_min_len">3</param>
+    <param name="stem_max_gu">100</param>
+    <param name="min_num_stem">1</param>
+    <param name="max_num_stem">2</param>
+    <param name="stem_max_separation">30</param>
+    <param name="skip_keep_longest_stems">0</param>
+    <param name="loop_min_len">4</param>
+    <param name="nogu">0</param>
+    <param name="range">0</param>
+    <param name="max_mismatch">0</param>
+    <param name="max_fixed_pos">100</param>
+    <param name="min_base_pair">5</param>
+    <param name="min_support">0.700000</param>
+    <param name="time_limit">0</param>
+    <param name="save_all_matches">1</param>
+    <param name="save_as_ct">0</param>
+    <param name="save_motifs">0</param>
+    <param name="match_file">results/matches.xml</param>
+    <param name="destination">results</param>
+    <param name="filename">data.fas</param>
+    <param name="version">1.0 [Dec  3 2005]</param>
+  </params>
+</motifs>

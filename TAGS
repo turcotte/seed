@@ -1,0 +1,436 @@
+
+src/algorithms/find.c,45
+display_usage_and_exit(25,820
+main(36,1123
+
+src/algorithms/ida.c,253
+make_all_vtrees(42,1200
+calculate_support(69,1784
+filter_by_support(86,2278
+filter_keep_longest_stems(115,2955
+fix_all(166,4202
+fix_all2(218,5744
+combine_allall(275,7175
+postprocess(343,8709
+display_statistics(420,10528
+ida_discover(463,11534
+
+src/algorithms/match.c,252
+#define LEFT_PAREN 27,782
+#define RIGHT_PAREN 28,805
+#define SEQ_ELEM 29,829
+} pattern_t;39,1126
+report_matches(46,1348
+match_sec_struc_edge(68,2173
+match_sec_struc_node(142,4109
+match_sec_struc(175,5065
+isnuc_or_struc(204,5884
+main(214,6178
+
+src/algorithms/misc.c,118
+#define SECONDS_PER_MINUTE 16,444
+#define SECONDS_PER_HOUR 17,474
+time_limit_exceeded(24,712
+asc_cpu_time(47,1293
+
+src/algorithms/motif.c,1155
+get_sym_5_to_3(31,872
+new_stem_motif(68,1675
+expression_next(129,3029
+free_expression(142,3347
+free_motif(167,3783
+clone_expression(178,4084
+clone_motif(241,5772
+add_match(260,6304
+match_edge(333,8248
+match_node(505,12415
+match(540,13377
+occurs(571,14340
+free_match(592,14897
+element_start(606,15241
+expression_start(625,15746
+motif_start(645,16284
+element_end(656,16598
+expression_end(677,17096
+motif_end(701,17658
+element_before(712,17959
+expression_before(722,18270
+motif_before(732,18590
+expression_append(742,18896
+motif_append(777,19836
+replace_range_by_stem(797,20417
+motif_insert(869,22441
+combine(943,23988
+stem_within(972,24529
+element_is_equivalent(998,25391
+expression_is_equivalent(1042,26398
+motif_is_equivalent(1060,26963
+expression_num_base_pair(1104,28093
+motif_num_base_pair(1122,28517
+motif_to_string(1137,29151
+report_motif(1199,30419
+remove_non_canonical_bp(1283,32108
+save_matches(1322,33064
+create_base_pair_pos_array(1403,35208
+save_match_as_ct(1442,35900
+save_motif(1490,37229
+#define SECTION_SIZE 1516,37929
+make_dirname(1519,37971
+save_matches_as_ct(1565,39100
+save_motifs(1623,40441
+
+src/algorithms/seed.c,169
+display_banner(28,826
+static char usage[usage44,1435
+display_usage_and_exit(77,2673
+param_init(88,2961
+process_argv(127,4233
+save_params(270,8426
+main(314,10996
+
+src/algorithms/stems.c,67
+make_dpalindrome(32,1027
+get_lce(50,1456
+find_all_stems(94,2400
+
+src/libbio/seq.c,452
+#define BUFFER_SIZE 23,724
+static code_t codes[codes29,952
+alphabet_t bio_nuc_alphabet 48,1387
+bio_nuc_isbp(51,1461
+bio_nuc_complement(81,2596
+bio_nuc_revcomp(111,3496
+isnuc(132,4150
+bio_is_char_class(150,4561
+bio_nuc_cmp(180,5559
+bio_nuc_tochar(196,5976
+} BUFFERED_FILE;222,6528
+bio_fopen(229,6772
+bio_fclose(251,7261
+bio_fasta_has_next(271,7777
+bio_fasta_has_more_chars(313,8780
+bio_read_seq_fasta(356,9814
+bio_read_fasta(451,11999
+
+src/libbio/tests.c,28
+banner(21,684
+main(31,950
+
+src/libdev/bitset.c,366
+#define BITS_PER_UNIT 20,691
+dev_new_bitset(27,953
+dev_clone_bitset(52,1514
+dev_free_bitset(75,2063
+dev_bitset_cardinality(86,2347
+dev_bitset_size(102,2705
+dev_bitset_equals(120,3372
+dev_bitset_set(137,3793
+dev_bitset_get(152,4162
+dev_bitset_clear(169,4559
+dev_bitset_rightmost_one(185,4931
+dev_bitset_leftmost_one(198,5281
+dev_bitset_tostring(211,5641
+
+src/libdev/ivector.c,425
+dev_new_ivector(21,708
+dev_new_ivector2(33,1171
+dev_ivector_size(51,1686
+dev_ivector_is_empty(62,2019
+dev_ivector_get(74,2430
+dev_ivector_get_first(87,2830
+dev_ivector_get_last(100,3203
+dev_ivector_set(115,3720
+increase_capacity_if_needed(128,4145
+dev_ivector_add(153,4845
+dev_ivector_remove(167,5311
+dev_ivector_serve(186,5802
+dev_ivector_to_array(210,6432
+dev_free_ivector(226,6911
+dev_ivector_trim(238,7268
+
+src/libdev/libdev.c,908
+static int debug_level 38,1074
+static unsigned long memory_usage;41,1141
+dev_init(49,1392
+dev_get_memory_usage(61,1659
+#define KILO 72,1921
+#define MEGA 73,1939
+#define GIGA 74,1960
+dev_asc_memory_usage(77,1992
+_dev_malloc(111,2861
+_dev_realloc(140,3683
+dev_free(166,4392
+dev_free_array(178,4772
+dev_log(195,5235
+_dev_die(218,5908
+dev_set_debug_level(238,6505
+dev_get_debug_level(250,6812
+_dev_fopen(262,7211
+dev_new_filename(284,7731
+dev_isdir(308,8314
+dev_trim_dirname(324,8712
+dev_mkdir_or_die(337,9074
+dev_parse_int(354,9519
+dev_parse_float(369,9873
+dev_strcpy(386,10367
+dev_symcpy(406,10874
+dev_isnewline(432,11711
+dev_write_lines(445,12168
+dev_encode(474,12817
+dev_decode(494,13370
+dev_decode_dstring(512,13789
+dev_digitalize(532,14330
+dev_to_string(558,14978
+dev_new_dstring(585,15602
+dev_dstring_append(610,16220
+dev_free_dstring(647,17156
+dev_isspecial(658,17444
+
+src/libdev/list.c,342
+dev_new_list(21,707
+dev_list_size(39,1124
+dev_list_is_empty(50,1449
+dev_list_get(62,1853
+dev_list_get_first(82,2325
+dev_list_get_last(95,2691
+dev_list_set(110,3188
+new_elem(131,3729
+dev_list_add(146,4227
+dev_list_insert(168,4850
+dev_list_remove(205,5650
+dev_list_serve(245,6381
+dev_list_to_array(276,7051
+dev_free_list(298,7572
+
+src/libdev/sizeof_info.c,14
+main(49,1266
+
+src/libdev/tests.c,109
+banner(23,725
+} int_t;34,1022
+vector_test(37,1037
+list_test(77,1896
+bitset_test(122,2948
+main(162,3950
+
+src/libdev/vector.c,411
+dev_new_vector(21,709
+dev_new_vector2(40,1359
+dev_vector_size(58,1870
+dev_vector_is_empty(69,2201
+dev_vector_get(81,2611
+dev_vector_get_first(94,3010
+dev_vector_get_last(107,3382
+dev_vector_set(122,3897
+increase_capacity_if_needed(135,4320
+dev_vector_add(160,5021
+dev_vector_remove(174,5486
+dev_vector_serve(194,6009
+dev_vector_to_array(218,6637
+dev_free_vector(234,7115
+dev_vector_trim(249,7572
+
+src/libvtree/access.c,438
+new_interval3(22,767
+#define push(56,2192
+#define pop(57,2243
+#define peek(58,2284
+vtree_traverse_with_array(61,2334
+new_interval4(111,3309
+#define push(146,4618
+#define pop(147,4669
+#define peek(148,4710
+#define add(149,4754
+vtree_traverse_and_process(152,4815
+new_interval2(215,6036
+vtree_getChildIntervals(247,7248
+vtree_getlcp(299,8667
+trivial_cmp(314,9100
+vtree_getInterval(327,9578
+vtree_find_exact_match(408,11915
+
+src/libvtree/construct.c,510
+vtree_set_id(54,1953
+vtree_get_id(64,2214
+vtree_init(76,2543
+vtree_free(112,3544
+#define push(128,4011
+#define pop(129,4063
+#define peek(130,4105
+create_childtab_updown(133,4164
+#define push(178,5241
+#define pop(179,5293
+#define peek(180,5335
+create_childtab_next(183,5393
+create_childtab(224,6213
+create_bw_array(236,6591
+create_lcp_array(255,7078
+leq2(290,7925
+leq3(300,8244
+radix_pass(315,8922
+skew(348,10034
+#define GetI(437,12326
+create_suffix_array(482,13563
+vtree_create(507,14655
+
+src/libvtree/debug.c,27
+vtree_print_tables(21,692
+
+src/libvtree/lce.c,19
+vtree_lce(31,1139
+
+src/libvtree/repeats.c,63
+vtree_findall_smax_repeats(27,935
+vtree_findall_mums(82,2145
+
+src/libvtree/tests.c,355
+static code_t codes[codes25,756
+static alphabet_t lowercase 54,1242
+banner(61,1507
+is_wild_card(71,1789
+trivial_cmp(81,2059
+display(91,2380
+display2(154,3955
+print_s(203,5128
+isPermutation(216,5474
+isRank(242,6023
+sleq(256,6368
+isSorted(271,6737
+generate_and_test(286,7173
+f3(336,8291
+f4(346,8599
+traverse_topdown(356,8956
+main(386,9596
+
+src/algorithms/ida.h,21
+#define IDA_H14,460
+
+src/algorithms/misc.h,22
+#define MISC_H10,251
+
+src/algorithms/motif.h,415
+#define MOTIF_H14,477
+typedef enum element 26,797
+typedef enum element { left,26,797
+typedef enum element { left, right,26,797
+typedef enum element { left, right, unpaired,26,797
+typedef enum element { left, right, unpaired, range 26,797
+typedef enum element { left, right, unpaired, range } element_t;26,797
+typedef struct expression_s 32,1066
+} expression_t;42,1296
+} motif_t;54,1627
+} match_t;66,1938
+
+src/algorithms/seed.h,742
+#define SEED_H14,472
+#define VERSION 20,533
+} param_t;54,1295
+#define DEFAULT_SEED 60,1510
+#define STEM_MIN_LEN 61,1533
+#define MIN_NUM_STEM 62,1556
+#define MAX_NUM_STEM 63,1579
+#define STEM_MAX_GU 64,1602
+#define STEM_MAX_SEPARATION 65,1626
+#define SKIP_KEEP_LONGEST_STEMS 66,1658
+#define LOOP_MIN_LEN 67,1696
+#define NOGU 68,1719
+#define RANGE 69,1738
+#define MAX_MISMATCH 70,1754
+#define MAX_FIXED_POS 71,1777
+#define MIN_BASE_PAIR 72,1803
+#define MIN_SUPPORT 73,1827
+#define TIME_LIMIT 74,1852
+#define SAVE_ALL_MATCHES 75,1873
+#define SAVE_AS_CT 76,1904
+#define SAVE_MOTIFS 77,1929
+#define MATCH_FILE 78,1955
+#define DESTINATION 79,1979
+#define FILENAME 80,2004
+#define PRINT_LEVEL 81,2026
+#define QUIET 82,2048
+
+src/algorithms/stems.h,23
+#define STEMS_H14,480
+
+src/libbio/seq.h,627
+#define SEQ_H14,457
+#define SYM_NUC_A 26,774
+#define SYM_NUC_C 27,817
+#define SYM_NUC_M 28,861
+#define SYM_NUC_G 29,927
+#define SYM_NUC_R 30,970
+#define SYM_NUC_S 31,1013
+#define SYM_NUC_V 32,1072
+#define SYM_NUC_T 33,1113
+#define SYM_NUC_U 34,1156
+#define SYM_NUC_W 35,1198
+#define SYM_NUC_Y 36,1255
+#define SYM_NUC_H 37,1302
+#define SYM_NUC_K 38,1343
+#define SYM_NUC_D 39,1408
+#define SYM_NUC_B 40,1449
+#define SYM_NUC_N 41,1490
+#define SYM_GAP 43,1530
+#define SYM_TER 44,1548
+#define ALPHABET_SIZE 46,1568
+#define NUM_SYMBOLS 47,1593
+#define isgap(49,1617
+#define isany(50,1653
+#define ister(51,1691
+
+src/libdev/bitset.h,80
+#define BITSET_H14,464
+typedef unsigned int unit_t;20,685
+} bitset_t;30,1090
+
+src/libdev/config.h,60
+#define CONFIG_H14,459
+#define DIRECTORY_SEPARATOR 16,477
+
+src/libdev/ivector.h,138
+#define IVECTOR_H14,469
+#define DEV_IVECTOR_CAPACITY_INCREMENT 22,712
+#define DEV_IVECTOR_INITIAL_CAPACITY 23,754
+} ivector_t;34,1077
+
+src/libdev/libdev.h,432
+#define LIBDEV_H14,477
+#define TRUE 22,587
+#define FALSE 26,625
+#define EXIT_SUCCESS 30,670
+#define EXIT_FAILURE 34,722
+#define MIN(38,765
+#define MAX(41,850
+#define DEFAULT_DEBUG_LEVEL 44,924
+typedef int symbol_t;61,1547
+typedef int pos_t;62,1569
+} code_t;71,1897
+} alphabet_t;84,2455
+} dstring_t;94,2746
+#define dev_malloc(108,3130
+#define dev_realloc(111,3254
+#define dev_die(120,3536
+#define dev_fopen(127,3755
+
+src/libdev/list.h,87
+#define LIST_H14,471
+typedef struct elem_s 20,690
+} elem_t;23,752
+} list_t;33,1028
+
+src/libdev/vector.h,134
+#define VECTOR_H14,471
+#define DEV_VECTOR_CAPACITY_INCREMENT 20,692
+#define DEV_VECTOR_INITIAL_CAPACITY 21,733
+} vector_t;32,1055
+
+src/libvtree/libvtree.h,264
+#define LIBVTREE_TYPES_H32,1049
+} node_t;47,1510
+} vtree_t;63,2086
+} interval2_t;84,2558
+} interval3_t;95,2760
+} interval4_t;102,2853
+#define vtree_get_childtab_up(128,4124
+#define vtree_get_childtab_down(129,4182
+#define vtree_get_childtab_next(130,4244
