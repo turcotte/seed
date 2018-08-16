@@ -3,7 +3,7 @@
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Wed Jun  8 11:00:14 2005
  * Last Modified By: turcotte
- * Last Modified On: Wed Feb 21 13:12:39 2018
+ * Last Modified On: Thu Aug 16 08:41:27 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -29,7 +29,7 @@ display_banner( param_t *params )
 {
   printf( "Seed %s - RNA secondary structure motif inference\n\n", params->version );
 
-  printf( "Copyright (C) 2003-05 University of Ottawa\n" );
+  printf( "Copyright (C) 2003-18 University of Ottawa\n" );
   printf( "All Rights Reserved\n" );
   printf( "\n" );
   printf( "This program is distributed under the terms of the\n" );
