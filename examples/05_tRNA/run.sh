@@ -3,8 +3,8 @@
 # run.sh --- run template
 # Author          : Marcel Turcotte
 # Created On      : Thu Aug  4 14:19:39 2005
-# Last Modified By: Marcel Turcotte
-# Last Modified On: Fri Sep  2 08:59:35 2005
+# Last Modified By: turcotte
+# Last Modified On: Thu Aug 16 08:15:09 2018
 
 DATA="data.fas"
 
@@ -26,4 +26,4 @@ SEED_PARAMS="$SEED_PARAMS --save_all_matches"
 # SEED_PARAMS="$SEED_PARAMS --save_as_ct"
 SEED_PARAMS="$SEED_PARAMS $DATA"
 
-seed $SEED_PARAMS > results/run.out
+../../bin/seed $SEED_PARAMS > results/run.out

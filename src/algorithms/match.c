@@ -2,8 +2,8 @@
  * match.c --- pattern matching routines
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Fri Jun 24 15:35:55 2005
- * Last Modified By: Marcel Turcotte
- * Last Modified On: Fri Oct  6 14:22:36 2006
+ * Last Modified By: turcotte
+ * Last Modified On: Wed Feb 21 13:29:25 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -69,7 +69,7 @@ match_sec_struc_edge( vtree_t *v, interval2_t *interval, pattern_t *p, int pos, 
 {
   symbol_t a, b, left;
   char s;
-  int result;
+  int result = -1;
 
   if ( pos == p->length ) {
 

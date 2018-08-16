@@ -2,8 +2,8 @@
  * tests.c --- tests driver
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Thu Jun 16 11:25:30 2005
- * Last Modified By: Marcel Turcotte
- * Last Modified On: Wed Jul 13 15:48:52 2005
+ * Last Modified By: turcotte
+ * Last Modified On: Wed Feb 21 14:00:33 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -395,7 +395,7 @@ main( void )
 
   banner();
 
-  generate_and_test( 10, 4 );
+  generate_and_test();
 
   ds = dev_digitalize( &lowercase, s1 );
   v = vtree_create( ds );

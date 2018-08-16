@@ -2,8 +2,8 @@
  * devtools.c --- Truong Nguyen and defines commonly used functions
  * Author          : Marcel Turcotte
  * Created On      : Tue Jun  7 13:23:18 2005
- * Last Modified By: Marcel Turcotte
- * Last Modified On: Tue Aug  9 18:33:47 2005
+ * Last Modified By: turcotte
+ * Last Modified On: Wed Feb 21 13:10:18 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -90,13 +90,13 @@ dev_asc_memory_usage( char **buf, unsigned long mem )
   *buf = dev_malloc( 64 );
 
   if ( giga > 0 ) 
-    sprintf( *buf, "%d.%d Gbytes", giga, mega );
+    sprintf( *buf, "%ld.%ld Gbytes", giga, mega );
   else if ( mega > 0 )
-    sprintf( *buf, "%d.%d Mbytes", mega, kilo );
+    sprintf( *buf, "%ld.%ld Mbytes", mega, kilo );
   else if ( kilo > 0 )
-    sprintf( *buf, "%d.%d Kbytes", kilo, mem );
+    sprintf( *buf, "%ld.%ld Kbytes", kilo, mem );
   else
-    sprintf( *buf, "%d bytes", mem );
+    sprintf( *buf, "%ld bytes", mem );
 
   return *buf;
 }

@@ -3,8 +3,8 @@
 # HSL3-1.sh --- runs experiment HSL3 1
 # Author          : Marcel Turcotte
 # Created On      : Thu Aug  4 14:19:39 2005
-# Last Modified By: Marcel Turcotte
-# Last Modified On: Fri Sep  2 09:01:23 2005
+# Last Modified By: turcotte
+# Last Modified On: Thu Aug 16 08:14:11 2018
 # 
 
 DATA="data.fas"
@@ -25,4 +25,4 @@ SEED_PARAMS="$SEED_PARAMS --save_all_matches"
 # SEED_PARAMS="$SEED_PARAMS --save_as_ct"
 SEED_PARAMS="$SEED_PARAMS $DATA"
 
-/Users/turcotte/Sync/Lab/Seed-1.0/seed/src/algorithms/seed $SEED_PARAMS > results/run.out
+../../bin/seed $SEED_PARAMS > results/run.out

@@ -2,8 +2,8 @@
  * motif.c --- secondary structure expressions and motifs
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Thu Jul  7 14:32:49 2005
- * Last Modified By: Marcel Turcotte
- * Last Modified On: Mon Aug  8 16:49:56 2005
+ * Last Modified By: turcotte
+ * Last Modified On: Wed Feb 21 13:40:18 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -655,7 +655,7 @@ motif_start( motif_t *m )
 static pos_t
 element_end( expression_t *e )
 {
-  pos_t end;
+  pos_t end = -1;
 
   assert( e != NULL );
 
@@ -676,7 +676,7 @@ element_end( expression_t *e )
 static pos_t
 expression_end( expression_t *e )
 {
-  pos_t end;
+  pos_t end = -1;
 
   assert( e != NULL );
 
@@ -994,62 +994,62 @@ stem_within( motif_t *a, motif_t *b )
  * valent to element a (or vice versa).                          *
  *****************************************************************/
 
-static int
-element_is_equivalent( expression_t *a, expression_t *b )
-{
+/* static int */
+/* element_is_equivalent( expression_t *a, expression_t *b ) */
+/* { */
 
-  if ( a->type != b->type )
-    return FALSE;
+/*   if ( a->type != b->type ) */
+/*     return FALSE; */
 
-  switch ( a->type ) {
-  case left:
+/*   switch ( a->type ) { */
+/*   case left: */
 
-    if ( ( a->length != b->length ) )
-      return FALSE;
+/*     if ( ( a->length != b->length ) ) */
+/*       return FALSE; */
 
-    for ( int offset=0; offset < a->length; offset++ )
-      if ( get_sym_5_to_3( a, offset ) != get_sym_5_to_3( b, offset ) )
-	return FALSE;
+/*     for ( int offset=0; offset < a->length; offset++ ) */
+/*       if ( get_sym_5_to_3( a, offset ) != get_sym_5_to_3( b, offset ) ) */
+/* 	return FALSE; */
 
-    return TRUE;
+/*     return TRUE; */
 
-  case range:
+/*   case range: */
 
-    if ( ( a->length == b->length ) && ( a->range == b->range ) )
-      return TRUE;
-    else
-      return FALSE;
+/*     if ( ( a->length == b->length ) && ( a->range == b->range ) ) */
+/*       return TRUE; */
+/*     else */
+/*       return FALSE; */
 
-  case right:
+/*   case right: */
 
-    return TRUE; /* left hand side was validated first */
+/*     return TRUE; /\* left hand side was validated first *\/ */
     
-  default:
-    dev_die( "unknown element %d", a->type );
-  }
+/*   default: */
+/*     dev_die( "unknown element %d", a->type ); */
+/*   } */
 
-  dev_die( "internal error, this statement should never be reached" );
+/*   dev_die( "internal error, this statement should never be reached" ); */
 
-  return FALSE;
-}
+/*   return FALSE; */
+/* } */
 
 /*****************************************************************
  * expression_is_equivalent - returns true if expression b is    *
  * equivalent to expression a (or vice versa).                   *
  *****************************************************************/
 
-static int
-expression_is_equivalent( expression_t *a, expression_t *b )
-{
+/* static int */
+/* expression_is_equivalent( expression_t *a, expression_t *b ) */
+/* { */
 
-  if ( a == NULL && b == NULL )
-    return TRUE;
-  else if ( a == NULL || b == NULL )
-    return FALSE;
+/*   if ( a == NULL && b == NULL ) */
+/*     return TRUE; */
+/*   else if ( a == NULL || b == NULL ) */
+/*     return FALSE; */
 
-  return element_is_equivalent( a, b ) && 
-    expression_is_equivalent( expression_next( a ), expression_next( b ) );
-}
+/*   return element_is_equivalent( a, b ) && */
+/*     expression_is_equivalent( expression_next( a ), expression_next( b ) ); */
+/* } */
 
 /*****************************************************************
  * motif_is_equivalent - returns true if motif b is equivalent   *
@@ -1279,6 +1279,8 @@ report_motif( motif_t *m )
  * remove_non_canonical_bp -                                     *
  *****************************************************************/
 
+#ifdef RNALIB
+
 void static
 remove_non_canonical_bp( char *seq, char *sec, param_t *params )
 {
@@ -1313,6 +1315,8 @@ remove_non_canonical_bp( char *seq, char *sec, param_t *params )
 
   dev_free_ivector( stack );
 }
+
+#endif
 
 /*****************************************************************
  * save_matches -                                                *
@@ -1356,7 +1360,7 @@ save_matches( vector_t *ms, vector_t *vs, param_t *params )
       while ( dev_list_size( matches ) > 0 ) {
 
 	match_t *match = ( match_t * ) dev_list_serve( matches );
-	float e;
+	float e = 0.0;
 
 #ifdef RNALIB
 	{
@@ -1443,7 +1447,7 @@ save_match_as_ct( match_t *match, vtree_t *v, char *dir, char *name, param_t *pa
 {
   FILE *fh;
   int n = v->length - 1, *ps;
-  float e;
+  float e = 0.0;
 
   char *filename = dev_new_filename( dir, name, ".ct" );
 

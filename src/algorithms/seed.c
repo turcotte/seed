@@ -2,8 +2,8 @@
  * seed.c --- RNA secondary structure motif inference
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Wed Jun  8 11:00:14 2005
- * Last Modified By: Marcel Turcotte
- * Last Modified On: Fri Aug  5 16:06:03 2005
+ * Last Modified By: turcotte
+ * Last Modified On: Wed Feb 21 13:12:39 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -76,7 +76,7 @@ Options:\n\
 static void
 display_usage_and_exit()
 {
-  printf( usage );
+  printf( "%s", usage );
   exit( EXIT_SUCCESS );
 }
 
