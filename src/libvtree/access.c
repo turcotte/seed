@@ -3,7 +3,7 @@
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Mon Jun 20 20:09:40 2005
  * Last Modified By: turcotte
- * Last Modified On: Tue Nov 20 09:14:50 2018
+ * Last Modified On: Tue Nov 20 09:49:51 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -446,7 +446,7 @@ vtree_find_exact_match( vtree_t *v, dstring_t *p )
 
     } else {
 
-      for ( pos_t k=c; k < m && queryFound; k++ )
+      for ( pos_t k=c+1; k < m && queryFound; k++ )
 	if ( v->text[ v->suftab[ i ] + k ] != p->text[ k ] )
 	  queryFound = FALSE;
       c = m; /* forces exit */
