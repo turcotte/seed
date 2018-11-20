@@ -2,8 +2,8 @@
  * access.c --- access functions for an enhanced suffix array (vtree)
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Mon Jun 20 20:09:40 2005
- * Last Modified By: Marcel Turcotte
- * Last Modified On: Fri Jul 15 14:01:07 2005
+ * Last Modified By: turcotte
+ * Last Modified On: Tue Nov 20 09:14:50 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -414,6 +414,10 @@ vtree_find_exact_match( vtree_t *v, dstring_t *p )
 
   interval = vtree_getInterval( v, 0, v->length, p->text[ c ], NULL );
 
+  if ( interval == NULL ) {
+    queryFound = FALSE;
+  }
+
   while ( ( interval != NULL ) && ( c < m ) && ( queryFound ) ) {
 
     i = interval->i;
@@ -430,7 +434,15 @@ vtree_find_exact_match( vtree_t *v, dstring_t *p )
 
       c = min;
 
-      interval = vtree_getInterval( v, i, j,  p->text[ c ], NULL );
+      if ( c < m ) {
+
+	interval = vtree_getInterval( v, i, j,  p->text[ c ], NULL );
+
+	if ( interval == NULL ) {
+	  queryFound = FALSE;
+	}
+
+      }
 
     } else {
 

@@ -3,7 +3,7 @@
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Thu Jun 16 11:25:30 2005
  * Last Modified By: turcotte
- * Last Modified On: Wed Feb 21 14:00:33 2018
+ * Last Modified On: Tue Nov 20 09:16:25 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -417,9 +417,13 @@ main( void )
     printf( "repeat <%d,%d>\n", interval->i, interval->j );
   }
 
+  /* 
+  
   printf( "\n:: top down\n" );
 
   traverse_topdown( v, new_interval2( 0, v->length ) );
+
+  */
 
   printf( "\n:: exact match\n" );
 
@@ -439,8 +443,8 @@ main( void )
       vtree_find_exact_match( v, pattern );
     }
 
-  printf( "input = %s\n", "tac" );
-  pattern= dev_digitalize( &lowercase, "tac" );
+  printf( "input = %s\n", "cac" );
+  pattern= dev_digitalize( &lowercase, "cac" );
   pattern->length =   pattern->length - 1;
   vtree_find_exact_match( v, pattern );
 
