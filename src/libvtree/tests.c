@@ -3,7 +3,7 @@
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Thu Jun 16 11:25:30 2005
  * Last Modified By: turcotte
- * Last Modified On: Tue Nov 20 09:16:25 2018
+ * Last Modified On: Tue Nov 20 09:36:05 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -370,8 +370,6 @@ traverse_topdown( vtree_t *v, interval2_t *i0 )
 
     traverse_topdown( v, child );
 
-    dev_free( child );
-
   }
 
   dev_free_vector( childs, free );
@@ -417,13 +415,9 @@ main( void )
     printf( "repeat <%d,%d>\n", interval->i, interval->j );
   }
 
-  /* 
-  
   printf( "\n:: top down\n" );
 
   traverse_topdown( v, new_interval2( 0, v->length ) );
-
-  */
 
   printf( "\n:: exact match\n" );
 
