@@ -1,4 +1,4 @@
-Seed - library and tools to explore RNA secondary structure motifs space
+Seed - library and tools to explore RNA secondary structure motifs space using enhanced suffix arrays
 Truong Nguyen and Marcel Turcotte (C) 2003-18 University of Ottawa
 
 Contact:
@@ -13,3 +13,47 @@ Canada
 marcel.turcotte@uottawa.ca
 
 bio.site.uottawa.ca/software/seed
+
+References:
+
+ @article{985389,
+    author = {Mohamed Ibrahim Abouelhoda and Stefan Kurtz and Enno Ohlebusch},
+    title = {Replacing suffix trees with enhanced suffix arrays},
+    journal = {J. of Discrete Algorithms},
+    volume = {2},
+    number = {1},
+    year = {2004},
+    issn = {1570-8667},
+    pages = {53--86},	
+    doi = {http://dx.doi.org/10.1016/S1570-8667(03)00065-0},
+    publisher = {Elsevier Science Publishers B. V.},
+    address = {Amsterdam, The Netherlands, The Netherlands}
+ }
+ 
+ @InProceedings{Karkkainen2003,
+     author =	 {K\"arkk\"ainen, Juha and Sanders, Peter},
+     title =	 {Simple Linear Work Suffix Array Construction},
+     booktitle = {Annual Symposium on Combinatorial Pattern Matching},
+     pages =	 {943--955},
+     year =	 2003,
+     volume =	 2719,
+     series =	 {Lecture Notes in Computer Science},
+     address =	 {Berlin},
+     publisher = {Springer-Verlag},
+     note = {\url{http://www.springerlink.com/openurl.asp?genre=article&issn=0302-9743&volume=2719&spage=943}}
+ }
+  
+ @InProceedings{Kasai2001,
+     author =	 {Kasai, Toru and Lee, Gunho and Arimura, Hiroki and
+                 Arikawa, Setsuo and Park, Kunsoo},
+     title =	 {Linear-Time Longest-Common-Prefix Computation in
+                 Suffix Arrays and Its Applications},
+     booktitle = {Annual Symposium on Combinatorial Pattern Matching},
+     pages =	 {181--192},
+     year =	 2001,
+     volume =	 2089,
+     series =	 {Lecture Notes in Computer Science},
+     address =	 {Berline},
+     publisher = {Springer-Verlag},
+     note =      {\url{http://www.springerlink.com/openurl.asp?genre=article&issn=0302-9743&volume=2089&spage=181}}
+ }
