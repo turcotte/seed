@@ -3,7 +3,7 @@
  * Author          : Truong Nguyen and Marcel Turcotte
  * Created On      : Thu Jul  7 14:32:49 2005
  * Last Modified By: turcotte
- * Last Modified On: Wed Feb 21 13:40:18 2018
+ * Last Modified On: Tue Dec 11 10:26:11 2018
  *
  * This copyrighted source code is freely distributed under the terms
  * of the GNU General Public License. 
@@ -371,7 +371,7 @@ match_edge( vtree_t *v,
 
     a = v->text[ v->suftab[ interval->i ] + pos ];
 
-    if ( a == 0 )
+    if ( a == SYM_GAP )
       return FALSE;
 
     /* reached the end of the input? */
@@ -413,7 +413,7 @@ match_edge( vtree_t *v,
 
     a = v->text[ v->suftab[ interval->i ] + pos ];
 
-    if ( a == 0 )
+    if ( a == SYM_GAP )
       return FALSE;
 
     /* reached the end of the input? */
@@ -457,6 +457,8 @@ match_edge( vtree_t *v,
 
       if ( ( ( ! result ) || ( save_all ) ) && ( offset < e->length + params->range ) ) {
 
+	/* Gready matching strategy - we might want to revisit that choice */
+	
 	a = v->text[ v->suftab[ interval->i ] + pos ];
 
 	if ( sbuf != NULL ) { 
@@ -473,7 +475,7 @@ match_edge( vtree_t *v,
 
       a = v->text[ v->suftab[ interval->i ] + pos ];
 
-      if ( a == 0 )
+      if ( a == SYM_GAP )
 	return FALSE;
 
       /* reached the end of the input? */
