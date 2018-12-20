@@ -3,7 +3,7 @@
 ## Author          : Truong Nguyen and Marcel Turcotte
 ## Created On      : Wed Jun  8 08:20:27 2005
 ## Last Modified By: turcotte
-## Last Modified On: Thu Aug 16 08:25:56 2018
+## Last Modified On: Thu Dec 20 09:59:08 2018
 ##
 ## This copyrighted source code is freely distributed under the terms
 ## of the GNU General Public License. 
@@ -81,6 +81,9 @@ clean:
 	cd $(LIBBIO_DIR) ; $(MAKE) clean
 	cd $(ALGORITHMS_DIR) ; $(MAKE) clean
 	rm -f *~
+
+TAGS:
+	find . -name "*.[ch]" -print | etags -
 
 .SILENT:
 
